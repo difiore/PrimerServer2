@@ -16,6 +16,8 @@ This repository is based on Python3 and acts as the successor of legacy [PrimerS
 ## Install
 
 Don't use Python 3.9 or above since the [primer3-py](https://pypi.org/project/primer3-py/) module hasn't supported Python 3.9 yet.
+
+AD: THIS SEEMS INCORRECT... ONLY SEEMS TO WORK UP TO PYTHON 3.7... replace 3.8 in line below with 3.7
 ```
 conda create -n primer python=3.8
 conda activate primer
@@ -71,6 +73,8 @@ seq1 200 10
 seq1 400 10
 ```
 It means that two sites (one site per line) are needed to design primers. The first site is in `seq1` and starts in position `200` and the region length is `10` (means `seq1:200-209`). The second site is in `seq1` and starts in position `400` and the region length is `10` (means `seq1:400-409`).
+
+AD: for a microsatellite, enter start position as start of msat in FASTA -10 and region length as length of msat + 20
 
 For details, see the [wiki](https://github.com/billzt/PrimerServer2/wiki).
 
