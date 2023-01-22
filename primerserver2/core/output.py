@@ -24,8 +24,12 @@ def tsv(primers_dict, dbs, mode):
             print_line.append('\t'.join(print_data))
             print_line.append('###')
             continue
-
-        if mode != 'check':
+        
+        if mode == 'full':
+        # AD: original code had this as `if mode != 'check':, but I think that is
+        # incorrect as, in `design` mode, this line throws a key missing error because
+        # primers['PRIMER_PAIR_NUM_RETURNED_FINAL'] is only defined if `sort_primers.py`
+        # is called, which it is not for `design` mode
             primer_num = primers['PRIMER_PAIR_NUM_RETURNED_FINAL']
         else:
             primer_num = primers['PRIMER_PAIR_NUM_RETURNED']
@@ -33,7 +37,11 @@ def tsv(primers_dict, dbs, mode):
             print_data = []
             print_data.append(id)
             print_data.append(str(amplicon_rank))
-            if mode != 'check':
+            
+            if mode == 'full':
+            # AD: again, the original code had that as `if mode != 'check':`, but I
+            # think that is incorrect as designed primers are only ranked in `full`
+            # but not `design` mode
                 raw_rank = primers[f'PRIMER_PAIR_AMPLICON_NUM_RANK_{amplicon_rank}']
             else:
                 raw_rank = amplicon_rank

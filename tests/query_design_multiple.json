@@ -1,0 +1,4235 @@
+{
+    "meta": {
+        "mode": "full",
+        "dbs": [
+            "tests/example.fa"
+        ],
+        "region_type": "SEQUENCE_TARGET",
+        "check_multiplex": false
+    },
+    "primers": {
+        "seq1-200-10": {
+            "PRIMER_LEFT_EXPLAIN": "considered 2685, GC content failed 51, low tm 1740, high tm 293, high hairpin stability 74, ok 527",
+            "PRIMER_RIGHT_EXPLAIN": "considered 6086, GC content failed 431, low tm 3981, high tm 573, high hairpin stability 165, long poly-x seq 35, ok 901",
+            "PRIMER_PAIR_EXPLAIN": "considered 102, tm diff too large 64, primer in pair overlaps a primer in a better pair 142207, ok 38",
+            "PRIMER_LEFT_NUM_RETURNED": 30,
+            "PRIMER_RIGHT_NUM_RETURNED": 30,
+            "PRIMER_INTERNAL_NUM_RETURNED": 0,
+            "PRIMER_PAIR_NUM_RETURNED": 30,
+            "PRIMER_PAIR_0_PENALTY": 0.14328188714182488,
+            "PRIMER_LEFT_0_PENALTY": 0.10894488999610985,
+            "PRIMER_RIGHT_0_PENALTY": 0.03433699714571503,
+            "PRIMER_LEFT_0_SEQUENCE": "GCTTCTGCAATGCCAAGTCC",
+            "PRIMER_RIGHT_0_SEQUENCE": "CTGTTGCATTGGCTTTGGCT",
+            "PRIMER_LEFT_0": [
+                15,
+                20
+            ],
+            "PRIMER_RIGHT_0": [
+                516,
+                20
+            ],
+            "PRIMER_LEFT_0_TM": 60.10894488999611,
+            "PRIMER_RIGHT_0_TM": 59.965663002854285,
+            "PRIMER_LEFT_0_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_0_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_0_SELF_ANY_TH": 1.5284041724111148,
+            "PRIMER_RIGHT_0_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_0_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_0_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_0_HAIRPIN_TH": 39.41426110530415,
+            "PRIMER_RIGHT_0_HAIRPIN_TH": 41.90756624485482,
+            "PRIMER_LEFT_0_END_STABILITY": 3.85,
+            "PRIMER_RIGHT_0_END_STABILITY": 4.75,
+            "PRIMER_PAIR_0_COMPL_ANY_TH": 18.863194700518306,
+            "PRIMER_PAIR_0_COMPL_END_TH": 8.234420067259464,
+            "PRIMER_PAIR_0_PRODUCT_SIZE": 502,
+            "PRIMER_PAIR_1_PENALTY": 0.7003309133055495,
+            "PRIMER_LEFT_1_PENALTY": 0.5212910123261736,
+            "PRIMER_RIGHT_1_PENALTY": 0.17903990097937594,
+            "PRIMER_LEFT_1_SEQUENCE": "TACAACCGCTTCTGCAATGC",
+            "PRIMER_RIGHT_1_SEQUENCE": "GTGGTGAAGGGTCGGTTGAA",
+            "PRIMER_LEFT_1": [
+                8,
+                20
+            ],
+            "PRIMER_RIGHT_1": [
+                337,
+                20
+            ],
+            "PRIMER_LEFT_1_TM": 59.478708987673826,
+            "PRIMER_RIGHT_1_TM": 60.179039900979376,
+            "PRIMER_LEFT_1_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_1_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_1_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_1_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_1_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_1_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_1_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_1_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_1_END_STABILITY": 3.56,
+            "PRIMER_RIGHT_1_END_STABILITY": 2.69,
+            "PRIMER_PAIR_1_COMPL_ANY_TH": 24.648103536070607,
+            "PRIMER_PAIR_1_COMPL_END_TH": 10.377102579297343,
+            "PRIMER_PAIR_1_PRODUCT_SIZE": 330,
+            "PRIMER_PAIR_2_PENALTY": 0.9359692833278359,
+            "PRIMER_LEFT_2_PENALTY": 0.6795051356739918,
+            "PRIMER_RIGHT_2_PENALTY": 0.25646414765384407,
+            "PRIMER_LEFT_2_SEQUENCE": "AGAGTACAACCGCTTCTGCA",
+            "PRIMER_RIGHT_2_SEQUENCE": "TTTGTGGTGAAGGGTCGGTT",
+            "PRIMER_LEFT_2": [
+                4,
+                20
+            ],
+            "PRIMER_RIGHT_2": [
+                340,
+                20
+            ],
+            "PRIMER_LEFT_2_TM": 59.32049486432601,
+            "PRIMER_RIGHT_2_TM": 59.743535852346156,
+            "PRIMER_LEFT_2_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_2_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_2_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_2_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_2_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_2_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_2_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_2_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_2_END_STABILITY": 4.41,
+            "PRIMER_RIGHT_2_END_STABILITY": 4.44,
+            "PRIMER_PAIR_2_COMPL_ANY_TH": 8.41799773553015,
+            "PRIMER_PAIR_2_COMPL_END_TH": 8.41799773553015,
+            "PRIMER_PAIR_2_PRODUCT_SIZE": 337,
+            "PRIMER_PAIR_3_PENALTY": 1.2134307107461382,
+            "PRIMER_LEFT_3_PENALTY": 0.8287621839669441,
+            "PRIMER_RIGHT_3_PENALTY": 0.38466852677919405,
+            "PRIMER_LEFT_3_SEQUENCE": "AATGCCAAGTCCAGCAGCAA",
+            "PRIMER_RIGHT_3_SEQUENCE": "GCTGCTGATCCCATTGCTTC",
+            "PRIMER_LEFT_3": [
+                23,
+                20
+            ],
+            "PRIMER_RIGHT_3": [
+                499,
+                20
+            ],
+            "PRIMER_LEFT_3_TM": 60.828762183966944,
+            "PRIMER_RIGHT_3_TM": 59.615331473220806,
+            "PRIMER_LEFT_3_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_3_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_3_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_3_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_3_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_3_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_3_HAIRPIN_TH": 43.38415899334382,
+            "PRIMER_RIGHT_3_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_3_END_STABILITY": 3.91,
+            "PRIMER_RIGHT_3_END_STABILITY": 3.86,
+            "PRIMER_PAIR_3_COMPL_ANY_TH": 26.306756435849024,
+            "PRIMER_PAIR_3_COMPL_END_TH": 24.157586905150538,
+            "PRIMER_PAIR_3_PRODUCT_SIZE": 477,
+            "PRIMER_PAIR_4_PENALTY": 1.6801116597895316,
+            "PRIMER_LEFT_4_PENALTY": 1.1539005653723393,
+            "PRIMER_RIGHT_4_PENALTY": 0.5262110944171923,
+            "PRIMER_LEFT_4_SEQUENCE": "CCGCTTCTGCAATGCCAAG",
+            "PRIMER_RIGHT_4_SEQUENCE": "GAAGGGTCGGTTGAATTGGC",
+            "PRIMER_LEFT_4": [
+                13,
+                19
+            ],
+            "PRIMER_RIGHT_4": [
+                332,
+                20
+            ],
+            "PRIMER_LEFT_4_TM": 60.15390056537234,
+            "PRIMER_RIGHT_4_TM": 59.47378890558281,
+            "PRIMER_LEFT_4_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_4_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_4_SELF_ANY_TH": 1.5284041724111148,
+            "PRIMER_RIGHT_4_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_4_SELF_END_TH": 6.216525640596501,
+            "PRIMER_RIGHT_4_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_4_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_4_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_4_END_STABILITY": 3.61,
+            "PRIMER_RIGHT_4_END_STABILITY": 4.52,
+            "PRIMER_PAIR_4_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_4_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_4_PRODUCT_SIZE": 320,
+            "PRIMER_PAIR_5_PENALTY": 1.7499239565265157,
+            "PRIMER_LEFT_5_PENALTY": 1.2145889620264825,
+            "PRIMER_RIGHT_5_PENALTY": 0.5353349945000332,
+            "PRIMER_LEFT_5_SEQUENCE": "GCAATGCCAAGTCCAGCAG",
+            "PRIMER_RIGHT_5_SEQUENCE": "CATTGGCTTTGGCTGCTGAT",
+            "PRIMER_LEFT_5": [
+                21,
+                19
+            ],
+            "PRIMER_RIGHT_5": [
+                510,
+                20
+            ],
+            "PRIMER_LEFT_5_TM": 59.78541103797352,
+            "PRIMER_RIGHT_5_TM": 59.46466500549997,
+            "PRIMER_LEFT_5_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_5_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_5_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_5_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_5_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_5_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_5_HAIRPIN_TH": 43.38415899334382,
+            "PRIMER_RIGHT_5_HAIRPIN_TH": 38.73276953128044,
+            "PRIMER_LEFT_5_END_STABILITY": 4.24,
+            "PRIMER_RIGHT_5_END_STABILITY": 2.9,
+            "PRIMER_PAIR_5_COMPL_ANY_TH": 18.863194700518306,
+            "PRIMER_PAIR_5_COMPL_END_TH": 13.797971536065006,
+            "PRIMER_PAIR_5_PRODUCT_SIZE": 490,
+            "PRIMER_PAIR_6_PENALTY": 2.6217117510672665,
+            "PRIMER_LEFT_6_PENALTY": 1.9545281689790954,
+            "PRIMER_RIGHT_6_PENALTY": 0.6671835820881711,
+            "PRIMER_LEFT_6_SEQUENCE": "CCAAGTCCAGCAGCAAGTG",
+            "PRIMER_RIGHT_6_SEQUENCE": "GTTGAATTGGCGGCAGTTGG",
+            "PRIMER_LEFT_6": [
+                27,
+                19
+            ],
+            "PRIMER_RIGHT_6": [
+                323,
+                20
+            ],
+            "PRIMER_LEFT_6_TM": 59.045471831020905,
+            "PRIMER_RIGHT_6_TM": 60.66718358208817,
+            "PRIMER_LEFT_6_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_6_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_6_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_6_SELF_ANY_TH": 24.19428177874852,
+            "PRIMER_LEFT_6_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_6_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_6_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_6_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_6_END_STABILITY": 3.16,
+            "PRIMER_RIGHT_6_END_STABILITY": 3.77,
+            "PRIMER_PAIR_6_COMPL_ANY_TH": 2.7854907790832613,
+            "PRIMER_PAIR_6_COMPL_END_TH": 2.7854907790832613,
+            "PRIMER_PAIR_6_PRODUCT_SIZE": 297,
+            "PRIMER_PAIR_7_PENALTY": 2.915667977102146,
+            "PRIMER_LEFT_7_PENALTY": 2.08764564027922,
+            "PRIMER_RIGHT_7_PENALTY": 0.8280223368229258,
+            "PRIMER_LEFT_7_SEQUENCE": "GCAAGTGCTAAGGAAGGGAAG",
+            "PRIMER_RIGHT_7_SEQUENCE": "CGGCAGTTGGGGTATCTGTA",
+            "PRIMER_LEFT_7": [
+                39,
+                21
+            ],
+            "PRIMER_RIGHT_7": [
+                313,
+                20
+            ],
+            "PRIMER_LEFT_7_TM": 58.91235435972078,
+            "PRIMER_RIGHT_7_TM": 59.171977663177074,
+            "PRIMER_LEFT_7_GC_PERCENT": 52.38095238095238,
+            "PRIMER_RIGHT_7_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_7_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_7_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_7_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_7_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_7_HAIRPIN_TH": 38.21177895765845,
+            "PRIMER_RIGHT_7_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_7_END_STABILITY": 3.46,
+            "PRIMER_RIGHT_7_END_STABILITY": 2.74,
+            "PRIMER_PAIR_7_COMPL_ANY_TH": 10.509976909207296,
+            "PRIMER_PAIR_7_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_7_PRODUCT_SIZE": 275,
+            "PRIMER_PAIR_8_PENALTY": 3.237061055766219,
+            "PRIMER_LEFT_8_PENALTY": 2.231964159616723,
+            "PRIMER_RIGHT_8_PENALTY": 1.005096896149496,
+            "PRIMER_LEFT_8_SEQUENCE": "GCCTTGATGCTCAAATTCACCA",
+            "PRIMER_RIGHT_8_SEQUENCE": "TGCTGATCCCATTGCTTCACT",
+            "PRIMER_LEFT_8": [
+                69,
+                22
+            ],
+            "PRIMER_RIGHT_8": [
+                497,
+                21
+            ],
+            "PRIMER_LEFT_8_TM": 59.76803584038328,
+            "PRIMER_RIGHT_8_TM": 59.994903103850504,
+            "PRIMER_LEFT_8_GC_PERCENT": 45.45454545454545,
+            "PRIMER_RIGHT_8_GC_PERCENT": 47.61904761904762,
+            "PRIMER_LEFT_8_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_8_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_8_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_8_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_8_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_8_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_8_END_STABILITY": 4.17,
+            "PRIMER_RIGHT_8_END_STABILITY": 3.41,
+            "PRIMER_PAIR_8_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_8_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_8_PRODUCT_SIZE": 429,
+            "PRIMER_PAIR_9_PENALTY": 3.281726693754422,
+            "PRIMER_LEFT_9_PENALTY": 2.2402794682452623,
+            "PRIMER_RIGHT_9_PENALTY": 1.0414472255091596,
+            "PRIMER_LEFT_9_SEQUENCE": "ACTGAGAGTACAACCGCTTCT",
+            "PRIMER_RIGHT_9_SEQUENCE": "GCTTTGGCTGCTGATCCCAT",
+            "PRIMER_LEFT_9": [
+                0,
+                21
+            ],
+            "PRIMER_RIGHT_9": [
+                505,
+                20
+            ],
+            "PRIMER_LEFT_9_TM": 58.75972053175474,
+            "PRIMER_RIGHT_9_TM": 61.04144722550916,
+            "PRIMER_LEFT_9_GC_PERCENT": 47.61904761904762,
+            "PRIMER_RIGHT_9_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_9_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_9_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_9_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_9_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_9_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_9_HAIRPIN_TH": 35.22029266387966,
+            "PRIMER_LEFT_9_END_STABILITY": 2.85,
+            "PRIMER_RIGHT_9_END_STABILITY": 4.0,
+            "PRIMER_PAIR_9_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_9_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_9_PRODUCT_SIZE": 506,
+            "PRIMER_PAIR_10_PENALTY": 4.035474843775432,
+            "PRIMER_LEFT_10_PENALTY": 2.867623907457755,
+            "PRIMER_RIGHT_10_PENALTY": 1.1678509363176772,
+            "PRIMER_LEFT_10_SEQUENCE": "ACTTTCTTGCCTTGATGCTCA",
+            "PRIMER_RIGHT_10_SEQUENCE": "TCTATTGCACTGCCTGTTGC",
+            "PRIMER_LEFT_10": [
+                61,
+                21
+            ],
+            "PRIMER_RIGHT_10": [
+                529,
+                20
+            ],
+            "PRIMER_LEFT_10_TM": 58.132376092542245,
+            "PRIMER_RIGHT_10_TM": 58.83214906368232,
+            "PRIMER_LEFT_10_GC_PERCENT": 42.857142857142854,
+            "PRIMER_RIGHT_10_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_10_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_10_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_10_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_10_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_10_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_10_HAIRPIN_TH": 41.769071076761975,
+            "PRIMER_LEFT_10_END_STABILITY": 4.26,
+            "PRIMER_RIGHT_10_END_STABILITY": 4.17,
+            "PRIMER_PAIR_10_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_10_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_10_PRODUCT_SIZE": 469,
+            "PRIMER_PAIR_11_PENALTY": 4.577091152321088,
+            "PRIMER_LEFT_11_PENALTY": 3.252351040497956,
+            "PRIMER_RIGHT_11_PENALTY": 1.3247401118231323,
+            "PRIMER_LEFT_11_SEQUENCE": "AGTGCTAAGGAAGGGAAGAACT",
+            "PRIMER_RIGHT_11_SEQUENCE": "TTGGCTGCTGATCCCATTGC",
+            "PRIMER_LEFT_11": [
+                42,
+                22
+            ],
+            "PRIMER_RIGHT_11": [
+                502,
+                20
+            ],
+            "PRIMER_LEFT_11_TM": 58.747648959502044,
+            "PRIMER_RIGHT_11_TM": 61.32474011182313,
+            "PRIMER_LEFT_11_GC_PERCENT": 45.45454545454545,
+            "PRIMER_RIGHT_11_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_11_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_11_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_11_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_11_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_11_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_11_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_11_END_STABILITY": 3.01,
+            "PRIMER_RIGHT_11_END_STABILITY": 3.56,
+            "PRIMER_PAIR_11_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_11_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_11_PRODUCT_SIZE": 461,
+            "PRIMER_PAIR_12_PENALTY": 5.5883547080575795,
+            "PRIMER_LEFT_12_PENALTY": 3.827876154035266,
+            "PRIMER_RIGHT_12_PENALTY": 1.7604785540223133,
+            "PRIMER_LEFT_12_SEQUENCE": "TCTTGCCTTGATGCTCAAATTCA",
+            "PRIMER_RIGHT_12_SEQUENCE": "TTGCATTGGCTTTGGCTGCT",
+            "PRIMER_LEFT_12": [
+                65,
+                23
+            ],
+            "PRIMER_RIGHT_12": [
+                513,
+                20
+            ],
+            "PRIMER_LEFT_12_TM": 59.172123845964734,
+            "PRIMER_RIGHT_12_TM": 61.76047855402231,
+            "PRIMER_LEFT_12_GC_PERCENT": 39.130434782608695,
+            "PRIMER_RIGHT_12_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_12_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_12_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_12_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_12_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_12_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_12_HAIRPIN_TH": 41.90756624485482,
+            "PRIMER_LEFT_12_END_STABILITY": 2.57,
+            "PRIMER_RIGHT_12_END_STABILITY": 4.24,
+            "PRIMER_PAIR_12_COMPL_ANY_TH": 12.574752305214872,
+            "PRIMER_PAIR_12_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_12_PRODUCT_SIZE": 449,
+            "PRIMER_PAIR_13_PENALTY": 6.108907318230422,
+            "PRIMER_LEFT_13_PENALTY": 3.9306343893826465,
+            "PRIMER_RIGHT_13_PENALTY": 2.1782729288477753,
+            "PRIMER_LEFT_13_SEQUENCE": "AGAACTTTCTTGCCTTGATGC",
+            "PRIMER_RIGHT_13_SEQUENCE": "GTCGGTTGAATTGGCGGC",
+            "PRIMER_LEFT_13": [
+                58,
+                21
+            ],
+            "PRIMER_RIGHT_13": [
+                327,
+                18
+            ],
+            "PRIMER_LEFT_13_TM": 57.06936561061735,
+            "PRIMER_RIGHT_13_TM": 59.821727071152225,
+            "PRIMER_LEFT_13_GC_PERCENT": 42.857142857142854,
+            "PRIMER_RIGHT_13_GC_PERCENT": 61.111111111111114,
+            "PRIMER_LEFT_13_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_13_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_13_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_13_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_13_HAIRPIN_TH": 32.552707341430676,
+            "PRIMER_RIGHT_13_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_13_END_STABILITY": 3.91,
+            "PRIMER_RIGHT_13_END_STABILITY": 6.53,
+            "PRIMER_PAIR_13_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_13_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_13_PRODUCT_SIZE": 270,
+            "PRIMER_PAIR_14_PENALTY": 6.5061663704854595,
+            "PRIMER_LEFT_14_PENALTY": 4.282702788153813,
+            "PRIMER_RIGHT_14_PENALTY": 2.2234635823316466,
+            "PRIMER_LEFT_14_SEQUENCE": "ACTTTCTTGCCTTGATGCTCAAAT",
+            "PRIMER_RIGHT_14_SEQUENCE": "ATTGGCGGCAGTTGGGGTAT",
+            "PRIMER_LEFT_14": [
+                61,
+                24
+            ],
+            "PRIMER_RIGHT_14": [
+                318,
+                20
+            ],
+            "PRIMER_LEFT_14_TM": 59.71729721184619,
+            "PRIMER_RIGHT_14_TM": 62.22346358233165,
+            "PRIMER_LEFT_14_GC_PERCENT": 37.5,
+            "PRIMER_RIGHT_14_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_14_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_14_SELF_ANY_TH": 12.87230354410417,
+            "PRIMER_LEFT_14_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_14_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_14_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_14_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_14_END_STABILITY": 2.32,
+            "PRIMER_RIGHT_14_END_STABILITY": 2.73,
+            "PRIMER_PAIR_14_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_14_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_14_PRODUCT_SIZE": 258,
+            "PRIMER_PAIR_15_PENALTY": 6.715435793503218,
+            "PRIMER_LEFT_15_PENALTY": 4.351111366712473,
+            "PRIMER_RIGHT_15_PENALTY": 2.364324426790745,
+            "PRIMER_LEFT_15_SEQUENCE": "TGCTAAGGAAGGGAAGAACTTTCT",
+            "PRIMER_RIGHT_15_SEQUENCE": "GCAGTTGGGGTATCTGTATCGA",
+            "PRIMER_LEFT_15": [
+                44,
+                24
+            ],
+            "PRIMER_RIGHT_15": [
+                311,
+                22
+            ],
+            "PRIMER_LEFT_15_TM": 59.64888863328753,
+            "PRIMER_RIGHT_15_TM": 59.635675573209255,
+            "PRIMER_LEFT_15_GC_PERCENT": 41.666666666666664,
+            "PRIMER_RIGHT_15_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_15_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_15_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_15_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_15_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_15_HAIRPIN_TH": 35.29525673166921,
+            "PRIMER_RIGHT_15_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_15_END_STABILITY": 2.52,
+            "PRIMER_RIGHT_15_END_STABILITY": 3.59,
+            "PRIMER_PAIR_15_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_15_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_15_PRODUCT_SIZE": 268,
+            "PRIMER_PAIR_16_PENALTY": 6.937106772597872,
+            "PRIMER_LEFT_16_PENALTY": 4.401519144118595,
+            "PRIMER_RIGHT_16_PENALTY": 2.535587628479277,
+            "PRIMER_LEFT_16_SEQUENCE": "CCTTGATGCTCAAATTCACCATCT",
+            "PRIMER_RIGHT_16_SEQUENCE": "GCCTGTTGCATTGGCTTTG",
+            "PRIMER_LEFT_16": [
+                70,
+                24
+            ],
+            "PRIMER_RIGHT_16": [
+                518,
+                19
+            ],
+            "PRIMER_LEFT_16_TM": 59.598480855881405,
+            "PRIMER_RIGHT_16_TM": 58.46441237152072,
+            "PRIMER_LEFT_16_GC_PERCENT": 41.666666666666664,
+            "PRIMER_RIGHT_16_GC_PERCENT": 52.63157894736842,
+            "PRIMER_LEFT_16_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_16_SELF_ANY_TH": 15.168331618226773,
+            "PRIMER_LEFT_16_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_16_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_16_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_16_HAIRPIN_TH": 43.04671848974891,
+            "PRIMER_LEFT_16_END_STABILITY": 2.9,
+            "PRIMER_RIGHT_16_END_STABILITY": 2.77,
+            "PRIMER_PAIR_16_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_16_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_16_PRODUCT_SIZE": 449,
+            "PRIMER_PAIR_17_PENALTY": 7.2094120683850065,
+            "PRIMER_LEFT_17_PENALTY": 4.463049813291434,
+            "PRIMER_RIGHT_17_PENALTY": 2.7463622550935725,
+            "PRIMER_LEFT_17_SEQUENCE": "ACCAAACCCCAGAGTCAATTAA",
+            "PRIMER_RIGHT_17_SEQUENCE": "GGCATCTATCTATTGCACTGCC",
+            "PRIMER_LEFT_17": [
+                101,
+                22
+            ],
+            "PRIMER_RIGHT_17": [
+                537,
+                22
+            ],
+            "PRIMER_LEFT_17_TM": 57.536950186708566,
+            "PRIMER_RIGHT_17_TM": 59.25363774490643,
+            "PRIMER_LEFT_17_GC_PERCENT": 40.90909090909091,
+            "PRIMER_RIGHT_17_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_17_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_17_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_17_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_17_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_17_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_17_HAIRPIN_TH": 40.88960514517623,
+            "PRIMER_LEFT_17_END_STABILITY": 1.4,
+            "PRIMER_RIGHT_17_END_STABILITY": 4.85,
+            "PRIMER_PAIR_17_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_17_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_17_PRODUCT_SIZE": 437,
+            "PRIMER_PAIR_18_PENALTY": 7.930180678610213,
+            "PRIMER_LEFT_18_PENALTY": 5.304357399970456,
+            "PRIMER_RIGHT_18_PENALTY": 2.625823278639757,
+            "PRIMER_LEFT_18_SEQUENCE": "CCAAACCCCAGAGTCAATTAAAAGT",
+            "PRIMER_RIGHT_18_SEQUENCE": "CGGTTGAATTGGCGGCAGT",
+            "PRIMER_LEFT_18": [
+                102,
+                25
+            ],
+            "PRIMER_RIGHT_18": [
+                325,
+                19
+            ],
+            "PRIMER_LEFT_18_TM": 59.695642600029544,
+            "PRIMER_RIGHT_18_TM": 61.62582327863976,
+            "PRIMER_LEFT_18_GC_PERCENT": 40.0,
+            "PRIMER_RIGHT_18_GC_PERCENT": 57.89473684210526,
+            "PRIMER_LEFT_18_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_18_SELF_ANY_TH": 12.87230354410417,
+            "PRIMER_LEFT_18_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_18_SELF_END_TH": 6.427953873349907,
+            "PRIMER_LEFT_18_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_18_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_18_END_STABILITY": 2.66,
+            "PRIMER_RIGHT_18_END_STABILITY": 4.4,
+            "PRIMER_PAIR_18_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_18_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_18_PRODUCT_SIZE": 224,
+            "PRIMER_PAIR_19_PENALTY": 8.514977737901916,
+            "PRIMER_LEFT_19_PENALTY": 5.701224176951484,
+            "PRIMER_RIGHT_19_PENALTY": 2.813753560950431,
+            "PRIMER_LEFT_19_SEQUENCE": "ACCCCAGAGTCAATTAAAAGTTCA",
+            "PRIMER_RIGHT_19_SEQUENCE": "TGCTTCACTTGTTGATACAGCC",
+            "PRIMER_LEFT_19": [
+                106,
+                24
+            ],
+            "PRIMER_RIGHT_19": [
+                485,
+                22
+            ],
+            "PRIMER_LEFT_19_TM": 58.298775823048516,
+            "PRIMER_RIGHT_19_TM": 59.18624643904957,
+            "PRIMER_LEFT_19_GC_PERCENT": 37.5,
+            "PRIMER_RIGHT_19_GC_PERCENT": 45.45454545454545,
+            "PRIMER_LEFT_19_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_19_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_19_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_19_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_19_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_19_HAIRPIN_TH": 35.496768996819014,
+            "PRIMER_LEFT_19_END_STABILITY": 3.18,
+            "PRIMER_RIGHT_19_END_STABILITY": 4.85,
+            "PRIMER_PAIR_19_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_19_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_19_PRODUCT_SIZE": 380,
+            "PRIMER_PAIR_20_PENALTY": 8.73237771373158,
+            "PRIMER_LEFT_20_PENALTY": 5.789573565666444,
+            "PRIMER_RIGHT_20_PENALTY": 2.942804148065136,
+            "PRIMER_LEFT_20_SEQUENCE": "TTATACCAAACCCCAGAGTCAAT",
+            "PRIMER_RIGHT_20_SEQUENCE": "TCCCATTGCTTCACTTGTTGA",
+            "PRIMER_LEFT_20": [
+                97,
+                23
+            ],
+            "PRIMER_RIGHT_20": [
+                491,
+                21
+            ],
+            "PRIMER_LEFT_20_TM": 57.210426434333556,
+            "PRIMER_RIGHT_20_TM": 58.057195851934864,
+            "PRIMER_LEFT_20_GC_PERCENT": 39.130434782608695,
+            "PRIMER_RIGHT_20_GC_PERCENT": 42.857142857142854,
+            "PRIMER_LEFT_20_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_20_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_20_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_20_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_20_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_20_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_20_END_STABILITY": 2.57,
+            "PRIMER_RIGHT_20_END_STABILITY": 3.18,
+            "PRIMER_PAIR_20_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_20_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_20_PRODUCT_SIZE": 395,
+            "PRIMER_PAIR_21_PENALTY": 9.12742168841379,
+            "PRIMER_LEFT_21_PENALTY": 6.040390887451508,
+            "PRIMER_RIGHT_21_PENALTY": 3.0870308009622818,
+            "PRIMER_LEFT_21_SEQUENCE": "CCCAGAGTCAATTAAAAGTTCAACCA",
+            "PRIMER_RIGHT_21_SEQUENCE": "CTGATCCCATTGCTTCACTTGT",
+            "PRIMER_LEFT_21": [
+                108,
+                26
+            ],
+            "PRIMER_RIGHT_21": [
+                495,
+                22
+            ],
+            "PRIMER_LEFT_21_TM": 59.95960911254849,
+            "PRIMER_RIGHT_21_TM": 58.91296919903772,
+            "PRIMER_LEFT_21_GC_PERCENT": 38.46153846153846,
+            "PRIMER_RIGHT_21_GC_PERCENT": 45.45454545454545,
+            "PRIMER_LEFT_21_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_21_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_21_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_21_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_21_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_21_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_21_END_STABILITY": 3.67,
+            "PRIMER_RIGHT_21_END_STABILITY": 3.16,
+            "PRIMER_PAIR_21_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_21_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_21_PRODUCT_SIZE": 388,
+            "PRIMER_PAIR_22_PENALTY": 9.648203730347916,
+            "PRIMER_LEFT_22_PENALTY": 6.142818061585558,
+            "PRIMER_RIGHT_22_PENALTY": 3.505385668762358,
+            "PRIMER_LEFT_22_SEQUENCE": "AGTTCAACCAAACGATCATTTTCA",
+            "PRIMER_RIGHT_22_SEQUENCE": "TGTTGGCCATTTGGATACTTGT",
+            "PRIMER_LEFT_22": [
+                124,
+                24
+            ],
+            "PRIMER_RIGHT_22": [
+                461,
+                22
+            ],
+            "PRIMER_LEFT_22_TM": 57.85718193841444,
+            "PRIMER_RIGHT_22_TM": 58.49461433123764,
+            "PRIMER_LEFT_22_GC_PERCENT": 33.333333333333336,
+            "PRIMER_RIGHT_22_GC_PERCENT": 40.90909090909091,
+            "PRIMER_LEFT_22_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_22_SELF_ANY_TH": 6.088122845140731,
+            "PRIMER_LEFT_22_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_22_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_22_HAIRPIN_TH": 34.272473515219076,
+            "PRIMER_RIGHT_22_HAIRPIN_TH": 37.387095656045176,
+            "PRIMER_LEFT_22_END_STABILITY": 2.69,
+            "PRIMER_RIGHT_22_END_STABILITY": 3.16,
+            "PRIMER_PAIR_22_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_22_COMPL_END_TH": 3.4955809585163706,
+            "PRIMER_PAIR_22_PRODUCT_SIZE": 338,
+            "PRIMER_PAIR_23_PENALTY": 9.83966450597967,
+            "PRIMER_LEFT_23_PENALTY": 6.324560609083051,
+            "PRIMER_RIGHT_23_PENALTY": 3.515103896896619,
+            "PRIMER_LEFT_23_SEQUENCE": "TCAACCAAACGATCATTTTCATGA",
+            "PRIMER_RIGHT_23_SEQUENCE": "CCTTTGTTGGCCATTTGGATACT",
+            "PRIMER_LEFT_23": [
+                127,
+                24
+            ],
+            "PRIMER_RIGHT_23": [
+                465,
+                23
+            ],
+            "PRIMER_LEFT_23_TM": 57.67543939091695,
+            "PRIMER_RIGHT_23_TM": 59.48489610310338,
+            "PRIMER_LEFT_23_GC_PERCENT": 33.333333333333336,
+            "PRIMER_RIGHT_23_GC_PERCENT": 43.47826086956522,
+            "PRIMER_LEFT_23_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_23_SELF_ANY_TH": 6.088122845140731,
+            "PRIMER_LEFT_23_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_23_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_23_HAIRPIN_TH": 43.84765629459815,
+            "PRIMER_RIGHT_23_HAIRPIN_TH": 37.387095656045176,
+            "PRIMER_LEFT_23_END_STABILITY": 3.07,
+            "PRIMER_RIGHT_23_END_STABILITY": 2.12,
+            "PRIMER_PAIR_23_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_23_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_23_PRODUCT_SIZE": 339,
+            "PRIMER_PAIR_24_PENALTY": 10.354217253410354,
+            "PRIMER_LEFT_24_PENALTY": 6.331368525181915,
+            "PRIMER_RIGHT_24_PENALTY": 4.022848728228439,
+            "PRIMER_LEFT_24_SEQUENCE": "ACCAAACGATCATTTTCATGAAGT",
+            "PRIMER_RIGHT_24_SEQUENCE": "GCTTCACTTGTTGATACAGCCTTT",
+            "PRIMER_LEFT_24": [
+                130,
+                24
+            ],
+            "PRIMER_RIGHT_24": [
+                484,
+                24
+            ],
+            "PRIMER_LEFT_24_TM": 57.668631474818085,
+            "PRIMER_RIGHT_24_TM": 60.02284872822844,
+            "PRIMER_LEFT_24_GC_PERCENT": 33.333333333333336,
+            "PRIMER_RIGHT_24_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_24_SELF_ANY_TH": 8.406531347588214,
+            "PRIMER_RIGHT_24_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_24_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_24_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_24_HAIRPIN_TH": 42.92531755178703,
+            "PRIMER_RIGHT_24_HAIRPIN_TH": 35.27850785977432,
+            "PRIMER_LEFT_24_END_STABILITY": 3.01,
+            "PRIMER_RIGHT_24_END_STABILITY": 3.11,
+            "PRIMER_PAIR_24_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_24_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_24_PRODUCT_SIZE": 355,
+            "PRIMER_PAIR_25_PENALTY": 10.874450014614922,
+            "PRIMER_LEFT_25_PENALTY": 6.836527228013381,
+            "PRIMER_RIGHT_25_PENALTY": 4.037922786601541,
+            "PRIMER_LEFT_25_SEQUENCE": "CACCATCTTAATTATACCAAACCCCA",
+            "PRIMER_RIGHT_25_SEQUENCE": "ACTTGTTGATACAGCCTTTGTTGG",
+            "PRIMER_LEFT_25": [
+                86,
+                26
+            ],
+            "PRIMER_RIGHT_25": [
+                479,
+                24
+            ],
+            "PRIMER_LEFT_25_TM": 59.16347277198662,
+            "PRIMER_RIGHT_25_TM": 59.96207721339846,
+            "PRIMER_LEFT_25_GC_PERCENT": 38.46153846153846,
+            "PRIMER_RIGHT_25_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_25_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_25_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_25_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_25_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_25_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_25_HAIRPIN_TH": 41.2862408868113,
+            "PRIMER_LEFT_25_END_STABILITY": 4.96,
+            "PRIMER_RIGHT_25_END_STABILITY": 3.77,
+            "PRIMER_PAIR_25_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_25_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_25_PRODUCT_SIZE": 394,
+            "PRIMER_PAIR_26_PENALTY": 11.305608826900254,
+            "PRIMER_LEFT_26_PENALTY": 7.087408556897913,
+            "PRIMER_RIGHT_26_PENALTY": 4.218200270002342,
+            "PRIMER_LEFT_26_SEQUENCE": "ACGATCATTTTCATGAAGTATTGCA",
+            "PRIMER_RIGHT_26_SEQUENCE": "CCCATTGCTTCACTTGTTGATACA",
+            "PRIMER_LEFT_26": [
+                135,
+                25
+            ],
+            "PRIMER_RIGHT_26": [
+                490,
+                24
+            ],
+            "PRIMER_LEFT_26_TM": 57.91259144310209,
+            "PRIMER_RIGHT_26_TM": 59.78179972999766,
+            "PRIMER_LEFT_26_GC_PERCENT": 32.0,
+            "PRIMER_RIGHT_26_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_26_SELF_ANY_TH": 8.406531347588214,
+            "PRIMER_RIGHT_26_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_26_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_26_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_26_HAIRPIN_TH": 42.92531755178703,
+            "PRIMER_RIGHT_26_HAIRPIN_TH": 32.842735555414265,
+            "PRIMER_LEFT_26_END_STABILITY": 4.08,
+            "PRIMER_RIGHT_26_END_STABILITY": 2.29,
+            "PRIMER_PAIR_26_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_26_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_26_PRODUCT_SIZE": 356,
+            "PRIMER_PAIR_27_PENALTY": 11.942109177792872,
+            "PRIMER_LEFT_27_PENALTY": 7.363181124984578,
+            "PRIMER_RIGHT_27_PENALTY": 4.578928052808294,
+            "PRIMER_LEFT_27_SEQUENCE": "CCTTGATGCTCAAATTCACCATCTTAA",
+            "PRIMER_RIGHT_27_SEQUENCE": "TCGATATTCAATCTGGTGTCGAGA",
+            "PRIMER_LEFT_27": [
+                70,
+                27
+            ],
+            "PRIMER_RIGHT_27": [
+                293,
+                24
+            ],
+            "PRIMER_LEFT_27_TM": 60.36318112498458,
+            "PRIMER_RIGHT_27_TM": 59.421071947191706,
+            "PRIMER_LEFT_27_GC_PERCENT": 37.03703703703704,
+            "PRIMER_RIGHT_27_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_27_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_27_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_27_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_27_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_27_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_27_HAIRPIN_TH": 33.56079399669164,
+            "PRIMER_LEFT_27_END_STABILITY": 1.85,
+            "PRIMER_RIGHT_27_END_STABILITY": 4.04,
+            "PRIMER_PAIR_27_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_27_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_27_PRODUCT_SIZE": 224,
+            "PRIMER_PAIR_28_PENALTY": 12.08780255584702,
+            "PRIMER_LEFT_28_PENALTY": 7.4484687019837565,
+            "PRIMER_RIGHT_28_PENALTY": 4.639333853863263,
+            "PRIMER_LEFT_28_SEQUENCE": "CCATCTTAATTATACCAAACCCCAGAG",
+            "PRIMER_RIGHT_28_SEQUENCE": "CATCTATCTATTGCACTGCCTGT",
+            "PRIMER_LEFT_28": [
+                88,
+                27
+            ],
+            "PRIMER_RIGHT_28": [
+                535,
+                23
+            ],
+            "PRIMER_LEFT_28_TM": 59.55153129801624,
+            "PRIMER_RIGHT_28_TM": 58.36066614613674,
+            "PRIMER_LEFT_28_GC_PERCENT": 40.74074074074074,
+            "PRIMER_RIGHT_28_GC_PERCENT": 43.47826086956522,
+            "PRIMER_LEFT_28_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_28_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_28_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_28_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_28_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_28_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_28_END_STABILITY": 3.35,
+            "PRIMER_RIGHT_28_END_STABILITY": 4.0,
+            "PRIMER_PAIR_28_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_28_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_28_PRODUCT_SIZE": 448,
+            "PRIMER_PAIR_29_PENALTY": 12.645608610953389,
+            "PRIMER_LEFT_29_PENALTY": 7.540298585808557,
+            "PRIMER_RIGHT_29_PENALTY": 5.105310025144831,
+            "PRIMER_LEFT_29_SEQUENCE": "AGTCAATTAAAAGTTCAACCAAACGA",
+            "PRIMER_RIGHT_29_SEQUENCE": "GCAGTTGGGGTATCTGTATCGATAT",
+            "PRIMER_LEFT_29": [
+                113,
+                26
+            ],
+            "PRIMER_RIGHT_29": [
+                311,
+                25
+            ],
+            "PRIMER_LEFT_29_TM": 58.45970141419144,
+            "PRIMER_RIGHT_29_TM": 60.10531002514483,
+            "PRIMER_LEFT_29_GC_PERCENT": 30.76923076923077,
+            "PRIMER_RIGHT_29_GC_PERCENT": 44.0,
+            "PRIMER_LEFT_29_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_29_SELF_ANY_TH": 8.660510653041968,
+            "PRIMER_LEFT_29_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_29_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_29_HAIRPIN_TH": 34.272473515219076,
+            "PRIMER_RIGHT_29_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_29_END_STABILITY": 3.85,
+            "PRIMER_RIGHT_29_END_STABILITY": 1.63,
+            "PRIMER_PAIR_29_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_29_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_29_PRODUCT_SIZE": 199,
+            "SEQUENCE_RELATIVE_TARGET_START": 199,
+            "example.fa": {
+                "PRIMER_PAIR_0_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.0.L",
+                            "sseqid": "seq1",
+                            "sstart": 16,
+                            "send": 35,
+                            "Tm": 63.08,
+                            "qseq": "GCTTCTGCAATGCCAAGTCC",
+                            "sseq": "GCTTCTGCAATGCCAAGTCC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.0.R",
+                            "sseqid": "seq1",
+                            "sstart": 498,
+                            "send": 517,
+                            "Tm": 62.98,
+                            "qseq": "CTGTTGCATTGGCTTTGGCT",
+                            "sseq": "CTGTTGCATTGGCTTTGGCT"
+                        },
+                        "Tm": 62.98,
+                        "region": "seq1:16-517",
+                        "product_size": 502,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_1_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.1.L",
+                            "sseqid": "seq1",
+                            "sstart": 9,
+                            "send": 28,
+                            "Tm": 62.44,
+                            "qseq": "TACAACCGCTTCTGCAATGC",
+                            "sseq": "TACAACCGCTTCTGCAATGC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.1.R",
+                            "sseqid": "seq1",
+                            "sstart": 319,
+                            "send": 338,
+                            "Tm": 64.53,
+                            "qseq": "GTGGTGAAGGGTCGGTTGAA",
+                            "sseq": "GTGGTGAAGGGTCGGTTGAA"
+                        },
+                        "Tm": 62.44,
+                        "region": "seq1:9-338",
+                        "product_size": 330,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_2_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.2.L",
+                            "sseqid": "seq1",
+                            "sstart": 5,
+                            "send": 24,
+                            "Tm": 62.34,
+                            "qseq": "AGAGTACAACCGCTTCTGCA",
+                            "sseq": "AGAGTACAACCGCTTCTGCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.2.R",
+                            "sseqid": "seq1",
+                            "sstart": 322,
+                            "send": 341,
+                            "Tm": 64.16,
+                            "qseq": "TTTGTGGTGAAGGGTCGGTT",
+                            "sseq": "TTTGTGGTGAAGGGTCGGTT"
+                        },
+                        "Tm": 62.34,
+                        "region": "seq1:5-341",
+                        "product_size": 337,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_3_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.3.L",
+                            "sseqid": "seq1",
+                            "sstart": 24,
+                            "send": 43,
+                            "Tm": 63.9,
+                            "qseq": "AATGCCAAGTCCAGCAGCAA",
+                            "sseq": "AATGCCAAGTCCAGCAGCAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.3.R",
+                            "sseqid": "seq1",
+                            "sstart": 481,
+                            "send": 500,
+                            "Tm": 62.59,
+                            "qseq": "GCTGCTGATCCCATTGCTTC",
+                            "sseq": "GCTGCTGATCCCATTGCTTC"
+                        },
+                        "Tm": 62.59,
+                        "region": "seq1:24-500",
+                        "product_size": 477,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_4_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.4.L",
+                            "sseqid": "seq1",
+                            "sstart": 14,
+                            "send": 32,
+                            "Tm": 63.2,
+                            "qseq": "CCGCTTCTGCAATGCCAAG",
+                            "sseq": "CCGCTTCTGCAATGCCAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.4.R",
+                            "sseqid": "seq1",
+                            "sstart": 314,
+                            "send": 333,
+                            "Tm": 63.76,
+                            "qseq": "GAAGGGTCGGTTGAATTGGC",
+                            "sseq": "GAAGGGTCGGTTGAATTGGC"
+                        },
+                        "Tm": 63.2,
+                        "region": "seq1:14-333",
+                        "product_size": 320,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_5_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.5.L",
+                            "sseqid": "seq1",
+                            "sstart": 22,
+                            "send": 40,
+                            "Tm": 62.85,
+                            "qseq": "GCAATGCCAAGTCCAGCAG",
+                            "sseq": "GCAATGCCAAGTCCAGCAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.5.R",
+                            "sseqid": "seq1",
+                            "sstart": 492,
+                            "send": 511,
+                            "Tm": 62.48,
+                            "qseq": "CATTGGCTTTGGCTGCTGAT",
+                            "sseq": "CATTGGCTTTGGCTGCTGAT"
+                        },
+                        "Tm": 62.48,
+                        "region": "seq1:22-511",
+                        "product_size": 490,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_6_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.6.L",
+                            "sseqid": "seq1",
+                            "sstart": 28,
+                            "send": 46,
+                            "Tm": 62.11,
+                            "qseq": "CCAAGTCCAGCAGCAAGTG",
+                            "sseq": "CCAAGTCCAGCAGCAAGTG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.6.R",
+                            "sseqid": "seq1",
+                            "sstart": 305,
+                            "send": 324,
+                            "Tm": 64.28,
+                            "qseq": "GTTGAATTGGCGGCAGTTGG",
+                            "sseq": "GTTGAATTGGCGGCAGTTGG"
+                        },
+                        "Tm": 62.11,
+                        "region": "seq1:28-324",
+                        "product_size": 297,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_7_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.7.L",
+                            "sseqid": "seq2",
+                            "sstart": 3,
+                            "send": 23,
+                            "Tm": 63.07,
+                            "qseq": "GCAAGTGCTAAGGAAGGGAAG",
+                            "sseq": "GCAAGTGCTAAGGAAGGGAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.7.R",
+                            "sseqid": "seq2",
+                            "sstart": 258,
+                            "send": 277,
+                            "Tm": 64.85,
+                            "qseq": "CGGCAGTTGGGGTATCTGTA",
+                            "sseq": "CGGCAGTTGGGGTATCTGTA"
+                        },
+                        "Tm": 63.07,
+                        "region": "seq2:3-277",
+                        "product_size": 275,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.7.L",
+                            "sseqid": "seq1",
+                            "sstart": 40,
+                            "send": 60,
+                            "Tm": 63.07,
+                            "qseq": "GCAAGTGCTAAGGAAGGGAAG",
+                            "sseq": "GCAAGTGCTAAGGAAGGGAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.7.R",
+                            "sseqid": "seq1",
+                            "sstart": 295,
+                            "send": 314,
+                            "Tm": 64.85,
+                            "qseq": "CGGCAGTTGGGGTATCTGTA",
+                            "sseq": "CGGCAGTTGGGGTATCTGTA"
+                        },
+                        "Tm": 63.07,
+                        "region": "seq1:40-314",
+                        "product_size": 275,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_8_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.8.L",
+                            "sseqid": "seq2",
+                            "sstart": 33,
+                            "send": 54,
+                            "Tm": 62.6,
+                            "qseq": "GCCTTGATGCTCAAATTCACCA",
+                            "sseq": "GCCTTGATGCTCAAATTCACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.8.R",
+                            "sseqid": "seq2",
+                            "sstart": 440,
+                            "send": 460,
+                            "Tm": 62.97,
+                            "qseq": "TGCTGATCCCATTGCTTCACT",
+                            "sseq": "TGCTGATCCCATTGCTTCACT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq2:33-460",
+                        "product_size": 428,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.8.L",
+                            "sseqid": "seq1",
+                            "sstart": 70,
+                            "send": 91,
+                            "Tm": 62.6,
+                            "qseq": "GCCTTGATGCTCAAATTCACCA",
+                            "sseq": "GCCTTGATGCTCAAATTCACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.8.R",
+                            "sseqid": "seq1",
+                            "sstart": 478,
+                            "send": 498,
+                            "Tm": 62.97,
+                            "qseq": "TGCTGATCCCATTGCTTCACT",
+                            "sseq": "TGCTGATCCCATTGCTTCACT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq1:70-498",
+                        "product_size": 429,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_9_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.9.L",
+                            "sseqid": "seq1",
+                            "sstart": 1,
+                            "send": 21,
+                            "Tm": 61.69,
+                            "qseq": "ACTGAGAGTACAACCGCTTCT",
+                            "sseq": "ACTGAGAGTACAACCGCTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.9.R",
+                            "sseqid": "seq1",
+                            "sstart": 487,
+                            "send": 506,
+                            "Tm": 64.76,
+                            "qseq": "GCTTTGGCTGCTGATCCCAT",
+                            "sseq": "GCTTTGGCTGCTGATCCCAT"
+                        },
+                        "Tm": 61.69,
+                        "region": "seq1:1-506",
+                        "product_size": 506,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_10_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.10.L",
+                            "sseqid": "seq2",
+                            "sstart": 25,
+                            "send": 45,
+                            "Tm": 60.44,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCA",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.10.R",
+                            "sseqid": "seq2",
+                            "sstart": 473,
+                            "send": 492,
+                            "Tm": 57.69,
+                            "qseq": "TCTATTGCACTGCCTGTTGC",
+                            "sseq": "TCTATTGCACTGCCTGCTGC"
+                        },
+                        "Tm": 57.69,
+                        "region": "seq2:25-492",
+                        "product_size": 468,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.10.L",
+                            "sseqid": "seq1",
+                            "sstart": 62,
+                            "send": 82,
+                            "Tm": 60.44,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCA",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.10.R",
+                            "sseqid": "seq1",
+                            "sstart": 511,
+                            "send": 530,
+                            "Tm": 61.81,
+                            "qseq": "TCTATTGCACTGCCTGTTGC",
+                            "sseq": "TCTATTGCACTGCCTGTTGC"
+                        },
+                        "Tm": 60.44,
+                        "region": "seq1:62-530",
+                        "product_size": 469,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_11_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.11.L",
+                            "sseqid": "seq2",
+                            "sstart": 6,
+                            "send": 27,
+                            "Tm": 62.89,
+                            "qseq": "AGTGCTAAGGAAGGGAAGAACT",
+                            "sseq": "AGTGCTAAGGAAGGGAAGAACT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.11.R",
+                            "sseqid": "seq2",
+                            "sstart": 446,
+                            "send": 465,
+                            "Tm": 65.03,
+                            "qseq": "TTGGCTGCTGATCCCATTGC",
+                            "sseq": "TTGGCTGCTGATCCCATTGC"
+                        },
+                        "Tm": 62.89,
+                        "region": "seq2:6-465",
+                        "product_size": 460,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.11.L",
+                            "sseqid": "seq1",
+                            "sstart": 43,
+                            "send": 64,
+                            "Tm": 62.89,
+                            "qseq": "AGTGCTAAGGAAGGGAAGAACT",
+                            "sseq": "AGTGCTAAGGAAGGGAAGAACT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.11.R",
+                            "sseqid": "seq1",
+                            "sstart": 484,
+                            "send": 503,
+                            "Tm": 65.03,
+                            "qseq": "TTGGCTGCTGATCCCATTGC",
+                            "sseq": "TTGGCTGCTGATCCCATTGC"
+                        },
+                        "Tm": 62.89,
+                        "region": "seq1:43-503",
+                        "product_size": 461,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_12_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.12.L",
+                            "sseqid": "seq2",
+                            "sstart": 29,
+                            "send": 51,
+                            "Tm": 61.37,
+                            "qseq": "TCTTGCCTTGATGCTCAAATTCA",
+                            "sseq": "TCTTGCCTTGATGCTCAAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.12.R",
+                            "sseqid": "seq2",
+                            "sstart": 457,
+                            "send": 476,
+                            "Tm": 64.23,
+                            "qseq": "TTGCATTGGCTTTGGCTGCT",
+                            "sseq": "CTGCATTGGCTTTGGCTGCT"
+                        },
+                        "Tm": 61.37,
+                        "region": "seq2:29-476",
+                        "product_size": 448,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.12.L",
+                            "sseqid": "seq1",
+                            "sstart": 66,
+                            "send": 88,
+                            "Tm": 61.37,
+                            "qseq": "TCTTGCCTTGATGCTCAAATTCA",
+                            "sseq": "TCTTGCCTTGATGCTCAAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.12.R",
+                            "sseqid": "seq1",
+                            "sstart": 495,
+                            "send": 514,
+                            "Tm": 64.84,
+                            "qseq": "TTGCATTGGCTTTGGCTGCT",
+                            "sseq": "TTGCATTGGCTTTGGCTGCT"
+                        },
+                        "Tm": 61.37,
+                        "region": "seq1:66-514",
+                        "product_size": 449,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_13_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.13.L",
+                            "sseqid": "seq2",
+                            "sstart": 22,
+                            "send": 42,
+                            "Tm": 59.33,
+                            "qseq": "AGAACTTTCTTGCCTTGATGC",
+                            "sseq": "AGAACTTTCTTGCCTTGATGC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.13.R",
+                            "sseqid": "seq2",
+                            "sstart": 274,
+                            "send": 291,
+                            "Tm": 63.66,
+                            "qseq": "GTCGGTTGAATTGGCGGC",
+                            "sseq": "GTCGGTTGAATTGGCGGC"
+                        },
+                        "Tm": 59.33,
+                        "region": "seq2:22-291",
+                        "product_size": 270,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.13.L",
+                            "sseqid": "seq1",
+                            "sstart": 59,
+                            "send": 79,
+                            "Tm": 59.33,
+                            "qseq": "AGAACTTTCTTGCCTTGATGC",
+                            "sseq": "AGAACTTTCTTGCCTTGATGC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.13.R",
+                            "sseqid": "seq1",
+                            "sstart": 311,
+                            "send": 328,
+                            "Tm": 63.66,
+                            "qseq": "GTCGGTTGAATTGGCGGC",
+                            "sseq": "GTCGGTTGAATTGGCGGC"
+                        },
+                        "Tm": 59.33,
+                        "region": "seq1:59-328",
+                        "product_size": 270,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_14_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.14.L",
+                            "sseqid": "seq2",
+                            "sstart": 25,
+                            "send": 48,
+                            "Tm": 61.87,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCAAAT",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCAAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.14.R",
+                            "sseqid": "seq2",
+                            "sstart": 263,
+                            "send": 282,
+                            "Tm": 68.07,
+                            "qseq": "ATTGGCGGCAGTTGGGGTAT",
+                            "sseq": "ATTGGCGGCAGTTGGGGTAT"
+                        },
+                        "Tm": 61.87,
+                        "region": "seq2:25-282",
+                        "product_size": 258,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.14.L",
+                            "sseqid": "seq1",
+                            "sstart": 62,
+                            "send": 85,
+                            "Tm": 61.87,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCAAAT",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCAAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.14.R",
+                            "sseqid": "seq1",
+                            "sstart": 300,
+                            "send": 319,
+                            "Tm": 68.07,
+                            "qseq": "ATTGGCGGCAGTTGGGGTAT",
+                            "sseq": "ATTGGCGGCAGTTGGGGTAT"
+                        },
+                        "Tm": 61.87,
+                        "region": "seq1:62-319",
+                        "product_size": 258,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_15_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.15.L",
+                            "sseqid": "seq2",
+                            "sstart": 8,
+                            "send": 31,
+                            "Tm": 63.54,
+                            "qseq": "TGCTAAGGAAGGGAAGAACTTTCT",
+                            "sseq": "TGCTAAGGAAGGGAAGAACTTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.15.R",
+                            "sseqid": "seq2",
+                            "sstart": 254,
+                            "send": 275,
+                            "Tm": 64.27,
+                            "qseq": "GCAGTTGGGGTATCTGTATCGA",
+                            "sseq": "GCAGTTGGGGTATCTGTATCGA"
+                        },
+                        "Tm": 63.54,
+                        "region": "seq2:8-275",
+                        "product_size": 268,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.15.L",
+                            "sseqid": "seq1",
+                            "sstart": 45,
+                            "send": 68,
+                            "Tm": 63.54,
+                            "qseq": "TGCTAAGGAAGGGAAGAACTTTCT",
+                            "sseq": "TGCTAAGGAAGGGAAGAACTTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.15.R",
+                            "sseqid": "seq1",
+                            "sstart": 291,
+                            "send": 312,
+                            "Tm": 64.27,
+                            "qseq": "GCAGTTGGGGTATCTGTATCGA",
+                            "sseq": "GCAGTTGGGGTATCTGTATCGA"
+                        },
+                        "Tm": 63.54,
+                        "region": "seq1:45-312",
+                        "product_size": 268,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_16_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.16.L",
+                            "sseqid": "seq2",
+                            "sstart": 34,
+                            "send": 57,
+                            "Tm": 62.29,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCT",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.16.R",
+                            "sseqid": "seq2",
+                            "sstart": 463,
+                            "send": 481,
+                            "Tm": 57.19,
+                            "qseq": "GCCTGTTGCATTGGCTTTG",
+                            "sseq": "GCCTGCTGCATTGGCTTTG"
+                        },
+                        "Tm": 57.19,
+                        "region": "seq2:34-481",
+                        "product_size": 448,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.16.L",
+                            "sseqid": "seq1",
+                            "sstart": 71,
+                            "send": 94,
+                            "Tm": 62.29,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCT",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.16.R",
+                            "sseqid": "seq1",
+                            "sstart": 501,
+                            "send": 519,
+                            "Tm": 61.51,
+                            "qseq": "GCCTGTTGCATTGGCTTTG",
+                            "sseq": "GCCTGTTGCATTGGCTTTG"
+                        },
+                        "Tm": 61.51,
+                        "region": "seq1:71-519",
+                        "product_size": 449,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_17_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.17.L",
+                            "sseqid": "seq2",
+                            "sstart": 65,
+                            "send": 86,
+                            "Tm": 62.29,
+                            "qseq": "ACCAAACCCCAGAGTCAATTAA",
+                            "sseq": "ACCAAACCCCAGAGTCAATTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.17.R",
+                            "sseqid": "seq2",
+                            "sstart": 479,
+                            "send": 500,
+                            "Tm": 63.24,
+                            "qseq": "GGCATCTATCTATTGCACTGCC",
+                            "sseq": "GGCATCTATCTATTGCACTGCC"
+                        },
+                        "Tm": 62.29,
+                        "region": "seq2:65-500",
+                        "product_size": 436,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.17.L",
+                            "sseqid": "seq1",
+                            "sstart": 102,
+                            "send": 123,
+                            "Tm": 62.29,
+                            "qseq": "ACCAAACCCCAGAGTCAATTAA",
+                            "sseq": "ACCAAACCCCAGAGTCAATTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.17.R",
+                            "sseqid": "seq1",
+                            "sstart": 517,
+                            "send": 538,
+                            "Tm": 63.24,
+                            "qseq": "GGCATCTATCTATTGCACTGCC",
+                            "sseq": "GGCATCTATCTATTGCACTGCC"
+                        },
+                        "Tm": 62.29,
+                        "region": "seq1:102-538",
+                        "product_size": 437,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_18_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.18.L",
+                            "sseqid": "seq2",
+                            "sstart": 66,
+                            "send": 90,
+                            "Tm": 63.97,
+                            "qseq": "CCAAACCCCAGAGTCAATTAAAAGT",
+                            "sseq": "CCAAACCCCAGAGTCAATTAAAAGT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.18.R",
+                            "sseqid": "seq2",
+                            "sstart": 271,
+                            "send": 289,
+                            "Tm": 65.41,
+                            "qseq": "CGGTTGAATTGGCGGCAGT",
+                            "sseq": "CGGTTGAATTGGCGGCAGT"
+                        },
+                        "Tm": 63.97,
+                        "region": "seq2:66-289",
+                        "product_size": 224,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.18.L",
+                            "sseqid": "seq1",
+                            "sstart": 103,
+                            "send": 127,
+                            "Tm": 63.97,
+                            "qseq": "CCAAACCCCAGAGTCAATTAAAAGT",
+                            "sseq": "CCAAACCCCAGAGTCAATTAAAAGT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.18.R",
+                            "sseqid": "seq1",
+                            "sstart": 308,
+                            "send": 326,
+                            "Tm": 65.41,
+                            "qseq": "CGGTTGAATTGGCGGCAGT",
+                            "sseq": "CGGTTGAATTGGCGGCAGT"
+                        },
+                        "Tm": 63.97,
+                        "region": "seq1:103-326",
+                        "product_size": 224,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_19_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.19.L",
+                            "sseqid": "seq2",
+                            "sstart": 70,
+                            "send": 93,
+                            "Tm": 62.15,
+                            "qseq": "ACCCCAGAGTCAATTAAAAGTTCA",
+                            "sseq": "ACCCCAGAGTCAATTAAAAGTTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.19.R",
+                            "sseqid": "seq2",
+                            "sstart": 427,
+                            "send": 448,
+                            "Tm": 61.99,
+                            "qseq": "TGCTTCACTTGTTGATACAGCC",
+                            "sseq": "TGCTTCACTTGTTGATACAGCC"
+                        },
+                        "Tm": 61.99,
+                        "region": "seq2:70-448",
+                        "product_size": 379,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.19.L",
+                            "sseqid": "seq1",
+                            "sstart": 107,
+                            "send": 130,
+                            "Tm": 62.15,
+                            "qseq": "ACCCCAGAGTCAATTAAAAGTTCA",
+                            "sseq": "ACCCCAGAGTCAATTAAAAGTTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.19.R",
+                            "sseqid": "seq1",
+                            "sstart": 465,
+                            "send": 486,
+                            "Tm": 61.99,
+                            "qseq": "TGCTTCACTTGTTGATACAGCC",
+                            "sseq": "TGCTTCACTTGTTGATACAGCC"
+                        },
+                        "Tm": 61.99,
+                        "region": "seq1:107-486",
+                        "product_size": 380,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_20_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.20.L",
+                            "sseqid": "seq2",
+                            "sstart": 61,
+                            "send": 83,
+                            "Tm": 62.39,
+                            "qseq": "TTATACCAAACCCCAGAGTCAAT",
+                            "sseq": "TTATACCAAACCCCAGAGTCAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.20.R",
+                            "sseqid": "seq2",
+                            "sstart": 434,
+                            "send": 454,
+                            "Tm": 61.0,
+                            "qseq": "TCCCATTGCTTCACTTGTTGA",
+                            "sseq": "TCCCATTGCTTCACTTGTTGA"
+                        },
+                        "Tm": 61.0,
+                        "region": "seq2:61-454",
+                        "product_size": 394,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.20.L",
+                            "sseqid": "seq1",
+                            "sstart": 98,
+                            "send": 120,
+                            "Tm": 62.39,
+                            "qseq": "TTATACCAAACCCCAGAGTCAAT",
+                            "sseq": "TTATACCAAACCCCAGAGTCAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.20.R",
+                            "sseqid": "seq1",
+                            "sstart": 472,
+                            "send": 492,
+                            "Tm": 61.0,
+                            "qseq": "TCCCATTGCTTCACTTGTTGA",
+                            "sseq": "TCCCATTGCTTCACTTGTTGA"
+                        },
+                        "Tm": 61.0,
+                        "region": "seq1:98-492",
+                        "product_size": 395,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_21_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.21.L",
+                            "sseqid": "seq2",
+                            "sstart": 72,
+                            "send": 97,
+                            "Tm": 63.57,
+                            "qseq": "CCCAGAGTCAATTAAAAGTTCAACCA",
+                            "sseq": "CCCAGAGTCAATTAAAAGTTCAACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.21.R",
+                            "sseqid": "seq2",
+                            "sstart": 437,
+                            "send": 458,
+                            "Tm": 61.75,
+                            "qseq": "CTGATCCCATTGCTTCACTTGT",
+                            "sseq": "CTGATCCCATTGCTTCACTTGT"
+                        },
+                        "Tm": 61.75,
+                        "region": "seq2:72-458",
+                        "product_size": 387,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.21.L",
+                            "sseqid": "seq1",
+                            "sstart": 109,
+                            "send": 134,
+                            "Tm": 63.57,
+                            "qseq": "CCCAGAGTCAATTAAAAGTTCAACCA",
+                            "sseq": "CCCAGAGTCAATTAAAAGTTCAACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.21.R",
+                            "sseqid": "seq1",
+                            "sstart": 475,
+                            "send": 496,
+                            "Tm": 61.75,
+                            "qseq": "CTGATCCCATTGCTTCACTTGT",
+                            "sseq": "CTGATCCCATTGCTTCACTTGT"
+                        },
+                        "Tm": 61.75,
+                        "region": "seq1:109-496",
+                        "product_size": 388,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_22_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.22.L",
+                            "sseqid": "seq2",
+                            "sstart": 88,
+                            "send": 111,
+                            "Tm": 59.96,
+                            "qseq": "AGTTCAACCAAACGATCATTTTCA",
+                            "sseq": "AGTTCAACCAAACGATCATTTTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.22.R",
+                            "sseqid": "seq2",
+                            "sstart": 403,
+                            "send": 424,
+                            "Tm": 62.6,
+                            "qseq": "TGTTGGCCATTTGGATACTTGT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGT"
+                        },
+                        "Tm": 59.96,
+                        "region": "seq2:88-424",
+                        "product_size": 337,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.22.L",
+                            "sseqid": "seq1",
+                            "sstart": 125,
+                            "send": 148,
+                            "Tm": 59.96,
+                            "qseq": "AGTTCAACCAAACGATCATTTTCA",
+                            "sseq": "AGTTCAACCAAACGATCATTTTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.22.R",
+                            "sseqid": "seq1",
+                            "sstart": 441,
+                            "send": 462,
+                            "Tm": 62.6,
+                            "qseq": "TGTTGGCCATTTGGATACTTGT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGT"
+                        },
+                        "Tm": 59.96,
+                        "region": "seq1:125-462",
+                        "product_size": 338,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_23_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.23.L",
+                            "sseqid": "seq2",
+                            "sstart": 91,
+                            "send": 114,
+                            "Tm": 59.78,
+                            "qseq": "TCAACCAAACGATCATTTTCATGA",
+                            "sseq": "TCAACCAAACGATCATTTTCATGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.23.R",
+                            "sseqid": "seq2",
+                            "sstart": 406,
+                            "send": 428,
+                            "Tm": 64.03,
+                            "qseq": "CCTTTGTTGGCCATTTGGATACT",
+                            "sseq": "CCTTTGTTGGCCATTTGGATACT"
+                        },
+                        "Tm": 59.78,
+                        "region": "seq2:91-428",
+                        "product_size": 338,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.23.L",
+                            "sseqid": "seq1",
+                            "sstart": 128,
+                            "send": 151,
+                            "Tm": 59.78,
+                            "qseq": "TCAACCAAACGATCATTTTCATGA",
+                            "sseq": "TCAACCAAACGATCATTTTCATGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.23.R",
+                            "sseqid": "seq1",
+                            "sstart": 444,
+                            "send": 466,
+                            "Tm": 64.03,
+                            "qseq": "CCTTTGTTGGCCATTTGGATACT",
+                            "sseq": "CCTTTGTTGGCCATTTGGATACT"
+                        },
+                        "Tm": 59.78,
+                        "region": "seq1:128-466",
+                        "product_size": 339,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_24_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.24.L",
+                            "sseqid": "seq2",
+                            "sstart": 94,
+                            "send": 117,
+                            "Tm": 59.78,
+                            "qseq": "ACCAAACGATCATTTTCATGAAGT",
+                            "sseq": "ACCAAACGATCATTTTCATGAAGT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.24.R",
+                            "sseqid": "seq2",
+                            "sstart": 424,
+                            "send": 447,
+                            "Tm": 62.7,
+                            "qseq": "GCTTCACTTGTTGATACAGCCTTT",
+                            "sseq": "GCTTCACTTGTTGATACAGCCTTT"
+                        },
+                        "Tm": 59.78,
+                        "region": "seq2:94-447",
+                        "product_size": 354,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.24.L",
+                            "sseqid": "seq1",
+                            "sstart": 131,
+                            "send": 154,
+                            "Tm": 59.78,
+                            "qseq": "ACCAAACGATCATTTTCATGAAGT",
+                            "sseq": "ACCAAACGATCATTTTCATGAAGT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.24.R",
+                            "sseqid": "seq1",
+                            "sstart": 462,
+                            "send": 485,
+                            "Tm": 62.7,
+                            "qseq": "GCTTCACTTGTTGATACAGCCTTT",
+                            "sseq": "GCTTCACTTGTTGATACAGCCTTT"
+                        },
+                        "Tm": 59.78,
+                        "region": "seq1:131-485",
+                        "product_size": 355,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_25_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.25.L",
+                            "sseqid": "seq2",
+                            "sstart": 50,
+                            "send": 75,
+                            "Tm": 64.9,
+                            "qseq": "CACCATCTTAATTATACCAAACCCCA",
+                            "sseq": "CACCATCTTAATTATACCAAACCCCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.25.R",
+                            "sseqid": "seq2",
+                            "sstart": 419,
+                            "send": 442,
+                            "Tm": 63.2,
+                            "qseq": "ACTTGTTGATACAGCCTTTGTTGG",
+                            "sseq": "ACTTGTTGATACAGCCTTTGTTGG"
+                        },
+                        "Tm": 63.2,
+                        "region": "seq2:50-442",
+                        "product_size": 393,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.25.L",
+                            "sseqid": "seq1",
+                            "sstart": 87,
+                            "send": 112,
+                            "Tm": 64.9,
+                            "qseq": "CACCATCTTAATTATACCAAACCCCA",
+                            "sseq": "CACCATCTTAATTATACCAAACCCCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.25.R",
+                            "sseqid": "seq1",
+                            "sstart": 457,
+                            "send": 480,
+                            "Tm": 63.2,
+                            "qseq": "ACTTGTTGATACAGCCTTTGTTGG",
+                            "sseq": "ACTTGTTGATACAGCCTTTGTTGG"
+                        },
+                        "Tm": 63.2,
+                        "region": "seq1:87-480",
+                        "product_size": 394,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_26_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.26.L",
+                            "sseqid": "seq2",
+                            "sstart": 99,
+                            "send": 123,
+                            "Tm": 59.97,
+                            "qseq": "ACGATCATTTTCATGAAGTATTGCA",
+                            "sseq": "ACGATCATTTTCATGAAGTATTGCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.26.R",
+                            "sseqid": "seq2",
+                            "sstart": 430,
+                            "send": 453,
+                            "Tm": 63.01,
+                            "qseq": "CCCATTGCTTCACTTGTTGATACA",
+                            "sseq": "CCCATTGCTTCACTTGTTGATACA"
+                        },
+                        "Tm": 59.97,
+                        "region": "seq2:99-453",
+                        "product_size": 355,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.26.L",
+                            "sseqid": "seq1",
+                            "sstart": 136,
+                            "send": 160,
+                            "Tm": 59.97,
+                            "qseq": "ACGATCATTTTCATGAAGTATTGCA",
+                            "sseq": "ACGATCATTTTCATGAAGTATTGCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.26.R",
+                            "sseqid": "seq1",
+                            "sstart": 468,
+                            "send": 491,
+                            "Tm": 63.01,
+                            "qseq": "CCCATTGCTTCACTTGTTGATACA",
+                            "sseq": "CCCATTGCTTCACTTGTTGATACA"
+                        },
+                        "Tm": 59.97,
+                        "region": "seq1:136-491",
+                        "product_size": 356,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_27_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.27.L",
+                            "sseqid": "seq2",
+                            "sstart": 34,
+                            "send": 60,
+                            "Tm": 63.37,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCTTAA",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCTTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.27.R",
+                            "sseqid": "seq2",
+                            "sstart": 234,
+                            "send": 257,
+                            "Tm": 62.09,
+                            "qseq": "TCGATATTCAATCTGGTGTCGAGA",
+                            "sseq": "TCGATATTCAATCTGGTGTCGAGA"
+                        },
+                        "Tm": 62.09,
+                        "region": "seq2:34-257",
+                        "product_size": 224,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.27.L",
+                            "sseqid": "seq1",
+                            "sstart": 71,
+                            "send": 97,
+                            "Tm": 63.37,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCTTAA",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCTTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.27.R",
+                            "sseqid": "seq1",
+                            "sstart": 271,
+                            "send": 294,
+                            "Tm": 62.09,
+                            "qseq": "TCGATATTCAATCTGGTGTCGAGA",
+                            "sseq": "TCGATATTCAATCTGGTGTCGAGA"
+                        },
+                        "Tm": 62.09,
+                        "region": "seq1:71-294",
+                        "product_size": 224,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_28_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.28.L",
+                            "sseqid": "seq2",
+                            "sstart": 52,
+                            "send": 78,
+                            "Tm": 65.08,
+                            "qseq": "CCATCTTAATTATACCAAACCCCAGAG",
+                            "sseq": "CCATCTTAATTATACCAAACCCCAGAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.28.R",
+                            "sseqid": "seq2",
+                            "sstart": 476,
+                            "send": 498,
+                            "Tm": 60.72,
+                            "qseq": "CATCTATCTATTGCACTGCCTGT",
+                            "sseq": "CATCTATCTATTGCACTGCCTGC"
+                        },
+                        "Tm": 60.72,
+                        "region": "seq2:52-498",
+                        "product_size": 447,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.28.L",
+                            "sseqid": "seq1",
+                            "sstart": 89,
+                            "send": 115,
+                            "Tm": 65.08,
+                            "qseq": "CCATCTTAATTATACCAAACCCCAGAG",
+                            "sseq": "CCATCTTAATTATACCAAACCCCAGAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.28.R",
+                            "sseqid": "seq1",
+                            "sstart": 514,
+                            "send": 536,
+                            "Tm": 61.67,
+                            "qseq": "CATCTATCTATTGCACTGCCTGT",
+                            "sseq": "CATCTATCTATTGCACTGCCTGT"
+                        },
+                        "Tm": 61.67,
+                        "region": "seq1:89-536",
+                        "product_size": 448,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_29_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.29.L",
+                            "sseqid": "seq2",
+                            "sstart": 77,
+                            "send": 102,
+                            "Tm": 60.99,
+                            "qseq": "AGTCAATTAAAAGTTCAACCAAACGA",
+                            "sseq": "AGTCAATTAAAAGTTCAACCAAACGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.29.R",
+                            "sseqid": "seq2",
+                            "sstart": 251,
+                            "send": 275,
+                            "Tm": 64.86,
+                            "qseq": "GCAGTTGGGGTATCTGTATCGATAT",
+                            "sseq": "GCAGTTGGGGTATCTGTATCGATAT"
+                        },
+                        "Tm": 60.99,
+                        "region": "seq2:77-275",
+                        "product_size": 199,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-200-10.29.L",
+                            "sseqid": "seq1",
+                            "sstart": 114,
+                            "send": 139,
+                            "Tm": 60.99,
+                            "qseq": "AGTCAATTAAAAGTTCAACCAAACGA",
+                            "sseq": "AGTCAATTAAAAGTTCAACCAAACGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-200-10.29.R",
+                            "sseqid": "seq1",
+                            "sstart": 288,
+                            "send": 312,
+                            "Tm": 64.86,
+                            "qseq": "GCAGTTGGGGTATCTGTATCGATAT",
+                            "sseq": "GCAGTTGGGGTATCTGTATCGATAT"
+                        },
+                        "Tm": 60.99,
+                        "region": "seq1:114-312",
+                        "product_size": 199,
+                        "product_seq": ""
+                    }
+                ]
+            },
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_0": 0,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_1": 1,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_2": 2,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_3": 3,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_4": 4,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_5": 5,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_6": 6,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_7": 9,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_8": 7,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_9": 8,
+            "PRIMER_PAIR_NUM_RETURNED_FINAL": 10
+        },
+        "seq1-400-10": {
+            "PRIMER_LEFT_EXPLAIN": "considered 5504, GC content failed 149, low tm 3566, high tm 542, high hairpin stability 154, long poly-x seq 24, ok 1069",
+            "PRIMER_RIGHT_EXPLAIN": "considered 3281, GC content failed 308, low tm 2144, high tm 328, high hairpin stability 89, long poly-x seq 11, ok 401",
+            "PRIMER_PAIR_EXPLAIN": "considered 406, tm diff too large 371, primer in pair overlaps a primer in a better pair 34031, ok 35",
+            "PRIMER_LEFT_NUM_RETURNED": 30,
+            "PRIMER_RIGHT_NUM_RETURNED": 30,
+            "PRIMER_INTERNAL_NUM_RETURNED": 0,
+            "PRIMER_PAIR_NUM_RETURNED": 30,
+            "PRIMER_PAIR_0_PENALTY": 0.14328188714182488,
+            "PRIMER_LEFT_0_PENALTY": 0.10894488999610985,
+            "PRIMER_RIGHT_0_PENALTY": 0.03433699714571503,
+            "PRIMER_LEFT_0_SEQUENCE": "GCTTCTGCAATGCCAAGTCC",
+            "PRIMER_RIGHT_0_SEQUENCE": "CTGTTGCATTGGCTTTGGCT",
+            "PRIMER_LEFT_0": [
+                15,
+                20
+            ],
+            "PRIMER_RIGHT_0": [
+                516,
+                20
+            ],
+            "PRIMER_LEFT_0_TM": 60.10894488999611,
+            "PRIMER_RIGHT_0_TM": 59.965663002854285,
+            "PRIMER_LEFT_0_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_0_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_0_SELF_ANY_TH": 1.5284041724111148,
+            "PRIMER_RIGHT_0_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_0_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_0_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_0_HAIRPIN_TH": 39.41426110530415,
+            "PRIMER_RIGHT_0_HAIRPIN_TH": 41.90756624485482,
+            "PRIMER_LEFT_0_END_STABILITY": 3.85,
+            "PRIMER_RIGHT_0_END_STABILITY": 4.75,
+            "PRIMER_PAIR_0_COMPL_ANY_TH": 18.863194700518306,
+            "PRIMER_PAIR_0_COMPL_END_TH": 8.234420067259464,
+            "PRIMER_PAIR_0_PRODUCT_SIZE": 502,
+            "PRIMER_PAIR_1_PENALTY": 0.56370842775857,
+            "PRIMER_LEFT_1_PENALTY": 0.17903990097937594,
+            "PRIMER_RIGHT_1_PENALTY": 0.38466852677919405,
+            "PRIMER_LEFT_1_SEQUENCE": "TTCAACCGACCCTTCACCAC",
+            "PRIMER_RIGHT_1_SEQUENCE": "GCTGCTGATCCCATTGCTTC",
+            "PRIMER_LEFT_1": [
+                318,
+                20
+            ],
+            "PRIMER_RIGHT_1": [
+                499,
+                20
+            ],
+            "PRIMER_LEFT_1_TM": 60.179039900979376,
+            "PRIMER_RIGHT_1_TM": 59.615331473220806,
+            "PRIMER_LEFT_1_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_1_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_1_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_1_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_1_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_1_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_1_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_1_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_1_END_STABILITY": 4.16,
+            "PRIMER_RIGHT_1_END_STABILITY": 3.86,
+            "PRIMER_PAIR_1_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_1_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_1_PRODUCT_SIZE": 182,
+            "PRIMER_PAIR_2_PENALTY": 0.7917991421538773,
+            "PRIMER_LEFT_2_PENALTY": 0.25646414765384407,
+            "PRIMER_RIGHT_2_PENALTY": 0.5353349945000332,
+            "PRIMER_LEFT_2_SEQUENCE": "ACCGACCCTTCACCACAAAA",
+            "PRIMER_RIGHT_2_SEQUENCE": "CATTGGCTTTGGCTGCTGAT",
+            "PRIMER_LEFT_2": [
+                322,
+                20
+            ],
+            "PRIMER_RIGHT_2": [
+                510,
+                20
+            ],
+            "PRIMER_LEFT_2_TM": 59.743535852346156,
+            "PRIMER_RIGHT_2_TM": 59.46466500549997,
+            "PRIMER_LEFT_2_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_2_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_2_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_2_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_2_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_2_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_2_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_2_HAIRPIN_TH": 38.73276953128044,
+            "PRIMER_LEFT_2_END_STABILITY": 2.44,
+            "PRIMER_RIGHT_2_END_STABILITY": 2.9,
+            "PRIMER_PAIR_2_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_2_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_2_PRODUCT_SIZE": 189,
+            "PRIMER_PAIR_3_PENALTY": 1.5263879084756695,
+            "PRIMER_LEFT_3_PENALTY": 0.5212910123261736,
+            "PRIMER_RIGHT_3_PENALTY": 1.005096896149496,
+            "PRIMER_LEFT_3_SEQUENCE": "TACAACCGCTTCTGCAATGC",
+            "PRIMER_RIGHT_3_SEQUENCE": "TGCTGATCCCATTGCTTCACT",
+            "PRIMER_LEFT_3": [
+                8,
+                20
+            ],
+            "PRIMER_RIGHT_3": [
+                497,
+                21
+            ],
+            "PRIMER_LEFT_3_TM": 59.478708987673826,
+            "PRIMER_RIGHT_3_TM": 59.994903103850504,
+            "PRIMER_LEFT_3_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_3_GC_PERCENT": 47.61904761904762,
+            "PRIMER_LEFT_3_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_3_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_3_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_3_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_3_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_3_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_3_END_STABILITY": 3.56,
+            "PRIMER_RIGHT_3_END_STABILITY": 3.41,
+            "PRIMER_PAIR_3_COMPL_ANY_TH": 10.138345849423672,
+            "PRIMER_PAIR_3_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_3_PRODUCT_SIZE": 490,
+            "PRIMER_PAIR_4_PENALTY": 1.5676583199263519,
+            "PRIMER_LEFT_4_PENALTY": 0.5262110944171923,
+            "PRIMER_RIGHT_4_PENALTY": 1.0414472255091596,
+            "PRIMER_LEFT_4_SEQUENCE": "GCCAATTCAACCGACCCTTC",
+            "PRIMER_RIGHT_4_SEQUENCE": "GCTTTGGCTGCTGATCCCAT",
+            "PRIMER_LEFT_4": [
+                313,
+                20
+            ],
+            "PRIMER_RIGHT_4": [
+                505,
+                20
+            ],
+            "PRIMER_LEFT_4_TM": 59.47378890558281,
+            "PRIMER_RIGHT_4_TM": 61.04144722550916,
+            "PRIMER_LEFT_4_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_4_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_4_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_4_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_4_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_4_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_4_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_4_HAIRPIN_TH": 35.22029266387966,
+            "PRIMER_LEFT_4_END_STABILITY": 3.46,
+            "PRIMER_RIGHT_4_END_STABILITY": 4.0,
+            "PRIMER_PAIR_4_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_4_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_4_PRODUCT_SIZE": 193,
+            "PRIMER_PAIR_5_PENALTY": 1.8350345184058483,
+            "PRIMER_LEFT_5_PENALTY": 0.6671835820881711,
+            "PRIMER_RIGHT_5_PENALTY": 1.1678509363176772,
+            "PRIMER_LEFT_5_SEQUENCE": "CAACTGCCGCCAATTCAACC",
+            "PRIMER_RIGHT_5_SEQUENCE": "TCTATTGCACTGCCTGTTGC",
+            "PRIMER_LEFT_5": [
+                305,
+                20
+            ],
+            "PRIMER_RIGHT_5": [
+                529,
+                20
+            ],
+            "PRIMER_LEFT_5_TM": 60.66718358208817,
+            "PRIMER_RIGHT_5_TM": 58.83214906368232,
+            "PRIMER_LEFT_5_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_5_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_5_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_5_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_5_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_5_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_5_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_5_HAIRPIN_TH": 41.769071076761975,
+            "PRIMER_LEFT_5_END_STABILITY": 3.77,
+            "PRIMER_RIGHT_5_END_STABILITY": 4.17,
+            "PRIMER_PAIR_5_COMPL_ANY_TH": 3.8911995724016606,
+            "PRIMER_PAIR_5_COMPL_END_TH": 8.44209617488633,
+            "PRIMER_PAIR_5_PRODUCT_SIZE": 225,
+            "PRIMER_PAIR_6_PENALTY": 2.004245247497124,
+            "PRIMER_LEFT_6_PENALTY": 0.6795051356739918,
+            "PRIMER_RIGHT_6_PENALTY": 1.3247401118231323,
+            "PRIMER_LEFT_6_SEQUENCE": "AGAGTACAACCGCTTCTGCA",
+            "PRIMER_RIGHT_6_SEQUENCE": "TTGGCTGCTGATCCCATTGC",
+            "PRIMER_LEFT_6": [
+                4,
+                20
+            ],
+            "PRIMER_RIGHT_6": [
+                502,
+                20
+            ],
+            "PRIMER_LEFT_6_TM": 59.32049486432601,
+            "PRIMER_RIGHT_6_TM": 61.32474011182313,
+            "PRIMER_LEFT_6_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_6_GC_PERCENT": 55.0,
+            "PRIMER_LEFT_6_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_6_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_6_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_6_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_6_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_6_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_6_END_STABILITY": 4.41,
+            "PRIMER_RIGHT_6_END_STABILITY": 3.56,
+            "PRIMER_PAIR_6_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_6_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_6_PRODUCT_SIZE": 499,
+            "PRIMER_PAIR_7_PENALTY": 2.588500890845239,
+            "PRIMER_LEFT_7_PENALTY": 0.8280223368229258,
+            "PRIMER_RIGHT_7_PENALTY": 1.7604785540223133,
+            "PRIMER_LEFT_7_SEQUENCE": "TACAGATACCCCAACTGCCG",
+            "PRIMER_RIGHT_7_SEQUENCE": "TTGCATTGGCTTTGGCTGCT",
+            "PRIMER_LEFT_7": [
+                294,
+                20
+            ],
+            "PRIMER_RIGHT_7": [
+                513,
+                20
+            ],
+            "PRIMER_LEFT_7_TM": 59.171977663177074,
+            "PRIMER_RIGHT_7_TM": 61.76047855402231,
+            "PRIMER_LEFT_7_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_7_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_7_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_7_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_7_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_7_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_7_HAIRPIN_TH": 35.38353623372524,
+            "PRIMER_RIGHT_7_HAIRPIN_TH": 41.90756624485482,
+            "PRIMER_LEFT_7_END_STABILITY": 5.69,
+            "PRIMER_RIGHT_7_END_STABILITY": 4.24,
+            "PRIMER_PAIR_7_COMPL_ANY_TH": 5.112134923034432,
+            "PRIMER_PAIR_7_COMPL_END_TH": 1.9544778856607081,
+            "PRIMER_PAIR_7_PRODUCT_SIZE": 220,
+            "PRIMER_PAIR_8_PENALTY": 3.364349812446221,
+            "PRIMER_LEFT_8_PENALTY": 0.8287621839669441,
+            "PRIMER_RIGHT_8_PENALTY": 2.535587628479277,
+            "PRIMER_LEFT_8_SEQUENCE": "AATGCCAAGTCCAGCAGCAA",
+            "PRIMER_RIGHT_8_SEQUENCE": "GCCTGTTGCATTGGCTTTG",
+            "PRIMER_LEFT_8": [
+                23,
+                20
+            ],
+            "PRIMER_RIGHT_8": [
+                518,
+                19
+            ],
+            "PRIMER_LEFT_8_TM": 60.828762183966944,
+            "PRIMER_RIGHT_8_TM": 58.46441237152072,
+            "PRIMER_LEFT_8_GC_PERCENT": 50.0,
+            "PRIMER_RIGHT_8_GC_PERCENT": 52.63157894736842,
+            "PRIMER_LEFT_8_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_8_SELF_ANY_TH": 15.168331618226773,
+            "PRIMER_LEFT_8_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_8_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_8_HAIRPIN_TH": 43.38415899334382,
+            "PRIMER_RIGHT_8_HAIRPIN_TH": 43.04671848974891,
+            "PRIMER_LEFT_8_END_STABILITY": 3.91,
+            "PRIMER_RIGHT_8_END_STABILITY": 2.77,
+            "PRIMER_PAIR_8_COMPL_ANY_TH": 17.387132215889494,
+            "PRIMER_PAIR_8_COMPL_END_TH": 11.503435721025028,
+            "PRIMER_PAIR_8_PRODUCT_SIZE": 496,
+            "PRIMER_PAIR_9_PENALTY": 3.9002628204659118,
+            "PRIMER_LEFT_9_PENALTY": 1.1539005653723393,
+            "PRIMER_RIGHT_9_PENALTY": 2.7463622550935725,
+            "PRIMER_LEFT_9_SEQUENCE": "CCGCTTCTGCAATGCCAAG",
+            "PRIMER_RIGHT_9_SEQUENCE": "GGCATCTATCTATTGCACTGCC",
+            "PRIMER_LEFT_9": [
+                13,
+                19
+            ],
+            "PRIMER_RIGHT_9": [
+                537,
+                22
+            ],
+            "PRIMER_LEFT_9_TM": 60.15390056537234,
+            "PRIMER_RIGHT_9_TM": 59.25363774490643,
+            "PRIMER_LEFT_9_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_9_GC_PERCENT": 50.0,
+            "PRIMER_LEFT_9_SELF_ANY_TH": 1.5284041724111148,
+            "PRIMER_RIGHT_9_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_9_SELF_END_TH": 6.216525640596501,
+            "PRIMER_RIGHT_9_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_9_HAIRPIN_TH": 39.637120537481394,
+            "PRIMER_RIGHT_9_HAIRPIN_TH": 40.88960514517623,
+            "PRIMER_LEFT_9_END_STABILITY": 3.61,
+            "PRIMER_RIGHT_9_END_STABILITY": 4.85,
+            "PRIMER_PAIR_9_COMPL_ANY_TH": 6.961511607829038,
+            "PRIMER_PAIR_9_COMPL_END_TH": 8.214410065239917,
+            "PRIMER_PAIR_9_PRODUCT_SIZE": 525,
+            "PRIMER_PAIR_10_PENALTY": 4.028342522976914,
+            "PRIMER_LEFT_10_PENALTY": 1.2145889620264825,
+            "PRIMER_RIGHT_10_PENALTY": 2.813753560950431,
+            "PRIMER_LEFT_10_SEQUENCE": "GCAATGCCAAGTCCAGCAG",
+            "PRIMER_RIGHT_10_SEQUENCE": "TGCTTCACTTGTTGATACAGCC",
+            "PRIMER_LEFT_10": [
+                21,
+                19
+            ],
+            "PRIMER_RIGHT_10": [
+                485,
+                22
+            ],
+            "PRIMER_LEFT_10_TM": 59.78541103797352,
+            "PRIMER_RIGHT_10_TM": 59.18624643904957,
+            "PRIMER_LEFT_10_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_10_GC_PERCENT": 45.45454545454545,
+            "PRIMER_LEFT_10_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_10_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_10_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_10_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_10_HAIRPIN_TH": 43.38415899334382,
+            "PRIMER_RIGHT_10_HAIRPIN_TH": 35.496768996819014,
+            "PRIMER_LEFT_10_END_STABILITY": 4.24,
+            "PRIMER_RIGHT_10_END_STABILITY": 4.85,
+            "PRIMER_PAIR_10_COMPL_ANY_TH": 10.693816107089788,
+            "PRIMER_PAIR_10_COMPL_END_TH": 13.962030969667182,
+            "PRIMER_PAIR_10_PRODUCT_SIZE": 465,
+            "PRIMER_PAIR_11_PENALTY": 4.897332317044231,
+            "PRIMER_LEFT_11_PENALTY": 1.9545281689790954,
+            "PRIMER_RIGHT_11_PENALTY": 2.942804148065136,
+            "PRIMER_LEFT_11_SEQUENCE": "CCAAGTCCAGCAGCAAGTG",
+            "PRIMER_RIGHT_11_SEQUENCE": "TCCCATTGCTTCACTTGTTGA",
+            "PRIMER_LEFT_11": [
+                27,
+                19
+            ],
+            "PRIMER_RIGHT_11": [
+                491,
+                21
+            ],
+            "PRIMER_LEFT_11_TM": 59.045471831020905,
+            "PRIMER_RIGHT_11_TM": 58.057195851934864,
+            "PRIMER_LEFT_11_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_11_GC_PERCENT": 42.857142857142854,
+            "PRIMER_LEFT_11_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_11_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_11_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_11_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_11_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_11_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_11_END_STABILITY": 3.16,
+            "PRIMER_RIGHT_11_END_STABILITY": 3.18,
+            "PRIMER_PAIR_11_COMPL_ANY_TH": 17.202471220585664,
+            "PRIMER_PAIR_11_COMPL_END_TH": 17.202471220585664,
+            "PRIMER_PAIR_11_PRODUCT_SIZE": 465,
+            "PRIMER_PAIR_12_PENALTY": 5.174676441241502,
+            "PRIMER_LEFT_12_PENALTY": 2.08764564027922,
+            "PRIMER_RIGHT_12_PENALTY": 3.0870308009622818,
+            "PRIMER_LEFT_12_SEQUENCE": "GCAAGTGCTAAGGAAGGGAAG",
+            "PRIMER_RIGHT_12_SEQUENCE": "CTGATCCCATTGCTTCACTTGT",
+            "PRIMER_LEFT_12": [
+                39,
+                21
+            ],
+            "PRIMER_RIGHT_12": [
+                495,
+                22
+            ],
+            "PRIMER_LEFT_12_TM": 58.91235435972078,
+            "PRIMER_RIGHT_12_TM": 58.91296919903772,
+            "PRIMER_LEFT_12_GC_PERCENT": 52.38095238095238,
+            "PRIMER_RIGHT_12_GC_PERCENT": 45.45454545454545,
+            "PRIMER_LEFT_12_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_12_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_12_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_12_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_12_HAIRPIN_TH": 38.21177895765845,
+            "PRIMER_RIGHT_12_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_12_END_STABILITY": 3.46,
+            "PRIMER_RIGHT_12_END_STABILITY": 3.16,
+            "PRIMER_PAIR_12_COMPL_ANY_TH": 24.90821415251014,
+            "PRIMER_PAIR_12_COMPL_END_TH": 18.1557215893655,
+            "PRIMER_PAIR_12_PRODUCT_SIZE": 457,
+            "PRIMER_PAIR_13_PENALTY": 5.683658597610133,
+            "PRIMER_LEFT_13_PENALTY": 2.1782729288477753,
+            "PRIMER_RIGHT_13_PENALTY": 3.505385668762358,
+            "PRIMER_LEFT_13_SEQUENCE": "GCCGCCAATTCAACCGAC",
+            "PRIMER_RIGHT_13_SEQUENCE": "TGTTGGCCATTTGGATACTTGT",
+            "PRIMER_LEFT_13": [
+                310,
+                18
+            ],
+            "PRIMER_RIGHT_13": [
+                461,
+                22
+            ],
+            "PRIMER_LEFT_13_TM": 59.821727071152225,
+            "PRIMER_RIGHT_13_TM": 58.49461433123764,
+            "PRIMER_LEFT_13_GC_PERCENT": 61.111111111111114,
+            "PRIMER_RIGHT_13_GC_PERCENT": 40.90909090909091,
+            "PRIMER_LEFT_13_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_13_SELF_ANY_TH": 6.088122845140731,
+            "PRIMER_LEFT_13_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_13_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_13_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_13_HAIRPIN_TH": 37.387095656045176,
+            "PRIMER_LEFT_13_END_STABILITY": 4.79,
+            "PRIMER_RIGHT_13_END_STABILITY": 3.16,
+            "PRIMER_PAIR_13_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_13_COMPL_END_TH": 0.6176940780569566,
+            "PRIMER_PAIR_13_PRODUCT_SIZE": 152,
+            "PRIMER_PAIR_14_PENALTY": 5.738567479228266,
+            "PRIMER_LEFT_14_PENALTY": 2.2234635823316466,
+            "PRIMER_RIGHT_14_PENALTY": 3.515103896896619,
+            "PRIMER_LEFT_14_SEQUENCE": "ATACCCCAACTGCCGCCAAT",
+            "PRIMER_RIGHT_14_SEQUENCE": "CCTTTGTTGGCCATTTGGATACT",
+            "PRIMER_LEFT_14": [
+                299,
+                20
+            ],
+            "PRIMER_RIGHT_14": [
+                465,
+                23
+            ],
+            "PRIMER_LEFT_14_TM": 62.22346358233165,
+            "PRIMER_RIGHT_14_TM": 59.48489610310338,
+            "PRIMER_LEFT_14_GC_PERCENT": 55.0,
+            "PRIMER_RIGHT_14_GC_PERCENT": 43.47826086956522,
+            "PRIMER_LEFT_14_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_14_SELF_ANY_TH": 6.088122845140731,
+            "PRIMER_LEFT_14_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_14_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_14_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_14_HAIRPIN_TH": 37.387095656045176,
+            "PRIMER_LEFT_14_END_STABILITY": 3.16,
+            "PRIMER_RIGHT_14_END_STABILITY": 2.12,
+            "PRIMER_PAIR_14_COMPL_ANY_TH": 16.561328954764065,
+            "PRIMER_PAIR_14_COMPL_END_TH": 9.706997614168586,
+            "PRIMER_PAIR_14_PRODUCT_SIZE": 167,
+            "PRIMER_PAIR_15_PENALTY": 6.254812887845162,
+            "PRIMER_LEFT_15_PENALTY": 2.231964159616723,
+            "PRIMER_RIGHT_15_PENALTY": 4.022848728228439,
+            "PRIMER_LEFT_15_SEQUENCE": "GCCTTGATGCTCAAATTCACCA",
+            "PRIMER_RIGHT_15_SEQUENCE": "GCTTCACTTGTTGATACAGCCTTT",
+            "PRIMER_LEFT_15": [
+                69,
+                22
+            ],
+            "PRIMER_RIGHT_15": [
+                484,
+                24
+            ],
+            "PRIMER_LEFT_15_TM": 59.76803584038328,
+            "PRIMER_RIGHT_15_TM": 60.02284872822844,
+            "PRIMER_LEFT_15_GC_PERCENT": 45.45454545454545,
+            "PRIMER_RIGHT_15_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_15_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_15_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_15_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_15_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_15_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_15_HAIRPIN_TH": 35.27850785977432,
+            "PRIMER_LEFT_15_END_STABILITY": 4.17,
+            "PRIMER_RIGHT_15_END_STABILITY": 3.11,
+            "PRIMER_PAIR_15_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_15_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_15_PRODUCT_SIZE": 416,
+            "PRIMER_PAIR_16_PENALTY": 6.2782022548468035,
+            "PRIMER_LEFT_16_PENALTY": 2.2402794682452623,
+            "PRIMER_RIGHT_16_PENALTY": 4.037922786601541,
+            "PRIMER_LEFT_16_SEQUENCE": "ACTGAGAGTACAACCGCTTCT",
+            "PRIMER_RIGHT_16_SEQUENCE": "ACTTGTTGATACAGCCTTTGTTGG",
+            "PRIMER_LEFT_16": [
+                0,
+                21
+            ],
+            "PRIMER_RIGHT_16": [
+                479,
+                24
+            ],
+            "PRIMER_LEFT_16_TM": 58.75972053175474,
+            "PRIMER_RIGHT_16_TM": 59.96207721339846,
+            "PRIMER_LEFT_16_GC_PERCENT": 47.61904761904762,
+            "PRIMER_RIGHT_16_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_16_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_16_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_16_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_16_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_16_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_16_HAIRPIN_TH": 41.2862408868113,
+            "PRIMER_LEFT_16_END_STABILITY": 2.85,
+            "PRIMER_RIGHT_16_END_STABILITY": 3.77,
+            "PRIMER_PAIR_16_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_16_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_16_PRODUCT_SIZE": 480,
+            "PRIMER_PAIR_17_PENALTY": 6.492845737834216,
+            "PRIMER_LEFT_17_PENALTY": 2.274645467831874,
+            "PRIMER_RIGHT_17_PENALTY": 4.218200270002342,
+            "PRIMER_LEFT_17_SEQUENCE": "CCCAACTGCCGCCAATTCA",
+            "PRIMER_RIGHT_17_SEQUENCE": "CCCATTGCTTCACTTGTTGATACA",
+            "PRIMER_LEFT_17": [
+                303,
+                19
+            ],
+            "PRIMER_RIGHT_17": [
+                490,
+                24
+            ],
+            "PRIMER_LEFT_17_TM": 61.274645467831874,
+            "PRIMER_RIGHT_17_TM": 59.78179972999766,
+            "PRIMER_LEFT_17_GC_PERCENT": 57.89473684210526,
+            "PRIMER_RIGHT_17_GC_PERCENT": 41.666666666666664,
+            "PRIMER_LEFT_17_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_17_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_17_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_17_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_17_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_17_HAIRPIN_TH": 32.842735555414265,
+            "PRIMER_LEFT_17_END_STABILITY": 2.57,
+            "PRIMER_RIGHT_17_END_STABILITY": 2.29,
+            "PRIMER_PAIR_17_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_17_COMPL_END_TH": 2.104481819118405,
+            "PRIMER_PAIR_17_PRODUCT_SIZE": 188,
+            "PRIMER_PAIR_18_PENALTY": 7.5069577613210186,
+            "PRIMER_LEFT_18_PENALTY": 2.867623907457755,
+            "PRIMER_RIGHT_18_PENALTY": 4.639333853863263,
+            "PRIMER_LEFT_18_SEQUENCE": "ACTTTCTTGCCTTGATGCTCA",
+            "PRIMER_RIGHT_18_SEQUENCE": "CATCTATCTATTGCACTGCCTGT",
+            "PRIMER_LEFT_18": [
+                61,
+                21
+            ],
+            "PRIMER_RIGHT_18": [
+                535,
+                23
+            ],
+            "PRIMER_LEFT_18_TM": 58.132376092542245,
+            "PRIMER_RIGHT_18_TM": 58.36066614613674,
+            "PRIMER_LEFT_18_GC_PERCENT": 42.857142857142854,
+            "PRIMER_RIGHT_18_GC_PERCENT": 43.47826086956522,
+            "PRIMER_LEFT_18_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_18_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_18_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_18_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_18_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_18_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_18_END_STABILITY": 4.26,
+            "PRIMER_RIGHT_18_END_STABILITY": 4.0,
+            "PRIMER_PAIR_18_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_18_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_18_PRODUCT_SIZE": 475,
+            "PRIMER_PAIR_19_PENALTY": 8.415609512828155,
+            "PRIMER_LEFT_19_PENALTY": 3.252351040497956,
+            "PRIMER_RIGHT_19_PENALTY": 5.163258472330199,
+            "PRIMER_LEFT_19_SEQUENCE": "AGTGCTAAGGAAGGGAAGAACT",
+            "PRIMER_RIGHT_19_SEQUENCE": "TGTTGGCCATTTGGATACTTGTTTT",
+            "PRIMER_LEFT_19": [
+                42,
+                22
+            ],
+            "PRIMER_RIGHT_19": [
+                461,
+                25
+            ],
+            "PRIMER_LEFT_19_TM": 58.747648959502044,
+            "PRIMER_RIGHT_19_TM": 60.1632584723302,
+            "PRIMER_LEFT_19_GC_PERCENT": 45.45454545454545,
+            "PRIMER_RIGHT_19_GC_PERCENT": 36.0,
+            "PRIMER_LEFT_19_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_19_SELF_ANY_TH": 6.088122845140731,
+            "PRIMER_LEFT_19_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_19_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_19_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_19_HAIRPIN_TH": 37.387095656045176,
+            "PRIMER_LEFT_19_END_STABILITY": 3.01,
+            "PRIMER_RIGHT_19_END_STABILITY": 2.43,
+            "PRIMER_PAIR_19_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_19_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_19_PRODUCT_SIZE": 420,
+            "PRIMER_PAIR_20_PENALTY": 10.420019190057474,
+            "PRIMER_LEFT_20_PENALTY": 3.580894788222679,
+            "PRIMER_RIGHT_20_PENALTY": 6.839124401834795,
+            "PRIMER_LEFT_20_SEQUENCE": "TCAGCCAATAGTTACCTGTGTGA",
+            "PRIMER_RIGHT_20_SEQUENCE": "TGAATCATGCATTAGTTTCAGGTT",
+            "PRIMER_LEFT_20": [
+                355,
+                23
+            ],
+            "PRIMER_RIGHT_20": [
+                622,
+                24
+            ],
+            "PRIMER_LEFT_20_TM": 59.41910521177732,
+            "PRIMER_RIGHT_20_TM": 57.160875598165205,
+            "PRIMER_LEFT_20_GC_PERCENT": 43.47826086956522,
+            "PRIMER_RIGHT_20_GC_PERCENT": 33.333333333333336,
+            "PRIMER_LEFT_20_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_20_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_20_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_20_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_20_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_20_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_20_END_STABILITY": 3.58,
+            "PRIMER_RIGHT_20_END_STABILITY": 3.5,
+            "PRIMER_PAIR_20_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_20_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_20_PRODUCT_SIZE": 268,
+            "PRIMER_PAIR_21_PENALTY": 11.420761633999803,
+            "PRIMER_LEFT_21_PENALTY": 3.827876154035266,
+            "PRIMER_RIGHT_21_PENALTY": 7.592885479964536,
+            "PRIMER_LEFT_21_SEQUENCE": "TCTTGCCTTGATGCTCAAATTCA",
+            "PRIMER_RIGHT_21_SEQUENCE": "AAAATTGGCATCTATCTATTGCACT",
+            "PRIMER_LEFT_21": [
+                65,
+                23
+            ],
+            "PRIMER_RIGHT_21": [
+                543,
+                25
+            ],
+            "PRIMER_LEFT_21_TM": 59.172123845964734,
+            "PRIMER_RIGHT_21_TM": 57.407114520035464,
+            "PRIMER_LEFT_21_GC_PERCENT": 39.130434782608695,
+            "PRIMER_RIGHT_21_GC_PERCENT": 32.0,
+            "PRIMER_LEFT_21_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_21_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_21_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_21_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_21_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_21_HAIRPIN_TH": 38.11901791262176,
+            "PRIMER_LEFT_21_END_STABILITY": 2.57,
+            "PRIMER_RIGHT_21_END_STABILITY": 4.4,
+            "PRIMER_PAIR_21_COMPL_ANY_TH": 5.797000973207503,
+            "PRIMER_PAIR_21_COMPL_END_TH": 6.433998668101026,
+            "PRIMER_PAIR_21_PRODUCT_SIZE": 479,
+            "PRIMER_PAIR_22_PENALTY": 11.925059541019891,
+            "PRIMER_LEFT_22_PENALTY": 3.9306343893826465,
+            "PRIMER_RIGHT_22_PENALTY": 7.994425151637245,
+            "PRIMER_LEFT_22_SEQUENCE": "AGAACTTTCTTGCCTTGATGC",
+            "PRIMER_RIGHT_22_SEQUENCE": "TCATGCATTAGTTTCAGGTTTTAGA",
+            "PRIMER_LEFT_22": [
+                58,
+                21
+            ],
+            "PRIMER_RIGHT_22": [
+                618,
+                25
+            ],
+            "PRIMER_LEFT_22_TM": 57.06936561061735,
+            "PRIMER_RIGHT_22_TM": 57.005574848362755,
+            "PRIMER_LEFT_22_GC_PERCENT": 42.857142857142854,
+            "PRIMER_RIGHT_22_GC_PERCENT": 32.0,
+            "PRIMER_LEFT_22_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_22_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_22_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_22_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_22_HAIRPIN_TH": 32.552707341430676,
+            "PRIMER_RIGHT_22_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_22_END_STABILITY": 3.91,
+            "PRIMER_RIGHT_22_END_STABILITY": 2.1,
+            "PRIMER_PAIR_22_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_22_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_22_PRODUCT_SIZE": 561,
+            "PRIMER_PAIR_23_PENALTY": 12.515615862337825,
+            "PRIMER_LEFT_23_PENALTY": 4.282702788153813,
+            "PRIMER_RIGHT_23_PENALTY": 8.232913074184012,
+            "PRIMER_LEFT_23_SEQUENCE": "ACTTTCTTGCCTTGATGCTCAAAT",
+            "PRIMER_RIGHT_23_SEQUENCE": "TGCATTAGTTTCAGGTTTTAGAAAGT",
+            "PRIMER_LEFT_23": [
+                61,
+                24
+            ],
+            "PRIMER_RIGHT_23": [
+                615,
+                26
+            ],
+            "PRIMER_LEFT_23_TM": 59.71729721184619,
+            "PRIMER_RIGHT_23_TM": 57.76708692581599,
+            "PRIMER_LEFT_23_GC_PERCENT": 37.5,
+            "PRIMER_RIGHT_23_GC_PERCENT": 30.76923076923077,
+            "PRIMER_LEFT_23_SELF_ANY_TH": 1.2468355134020612,
+            "PRIMER_RIGHT_23_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_23_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_23_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_23_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_23_HAIRPIN_TH": 39.80662766393385,
+            "PRIMER_LEFT_23_END_STABILITY": 2.32,
+            "PRIMER_RIGHT_23_END_STABILITY": 2.66,
+            "PRIMER_PAIR_23_COMPL_ANY_TH": 15.293323973949612,
+            "PRIMER_PAIR_23_COMPL_END_TH": 15.293323973949612,
+            "PRIMER_PAIR_23_PRODUCT_SIZE": 555,
+            "PRIMER_PAIR_24_PENALTY": 13.08271661777735,
+            "PRIMER_LEFT_24_PENALTY": 4.351111366712473,
+            "PRIMER_RIGHT_24_PENALTY": 8.731605251064877,
+            "PRIMER_LEFT_24_SEQUENCE": "TGCTAAGGAAGGGAAGAACTTTCT",
+            "PRIMER_RIGHT_24_SEQUENCE": "TCATGTAACTATCGTTAAAAATTGGCA",
+            "PRIMER_LEFT_24": [
+                44,
+                24
+            ],
+            "PRIMER_RIGHT_24": [
+                560,
+                27
+            ],
+            "PRIMER_LEFT_24_TM": 59.64888863328753,
+            "PRIMER_RIGHT_24_TM": 58.26839474893512,
+            "PRIMER_LEFT_24_GC_PERCENT": 41.666666666666664,
+            "PRIMER_RIGHT_24_GC_PERCENT": 29.62962962962963,
+            "PRIMER_LEFT_24_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_24_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_24_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_24_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_24_HAIRPIN_TH": 35.29525673166921,
+            "PRIMER_RIGHT_24_HAIRPIN_TH": 37.355725978343514,
+            "PRIMER_LEFT_24_END_STABILITY": 2.52,
+            "PRIMER_RIGHT_24_END_STABILITY": 4.92,
+            "PRIMER_PAIR_24_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_24_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_24_PRODUCT_SIZE": 517,
+            "PRIMER_PAIR_25_PENALTY": 13.210516268011759,
+            "PRIMER_LEFT_25_PENALTY": 4.401519144118595,
+            "PRIMER_RIGHT_25_PENALTY": 8.808997123893164,
+            "PRIMER_LEFT_25_SEQUENCE": "CCTTGATGCTCAAATTCACCATCT",
+            "PRIMER_RIGHT_25_SEQUENCE": "TCGTTAAAAATTGGCATCTATCTATTGC",
+            "PRIMER_LEFT_25": [
+                70,
+                24
+            ],
+            "PRIMER_RIGHT_25": [
+                549,
+                28
+            ],
+            "PRIMER_LEFT_25_TM": 59.598480855881405,
+            "PRIMER_RIGHT_25_TM": 59.191002876106836,
+            "PRIMER_LEFT_25_GC_PERCENT": 41.666666666666664,
+            "PRIMER_RIGHT_25_GC_PERCENT": 32.142857142857146,
+            "PRIMER_LEFT_25_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_25_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_25_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_25_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_25_HAIRPIN_TH": 35.73261335996574,
+            "PRIMER_RIGHT_25_HAIRPIN_TH": 35.64052122273438,
+            "PRIMER_LEFT_25_END_STABILITY": 2.9,
+            "PRIMER_RIGHT_25_END_STABILITY": 3.56,
+            "PRIMER_PAIR_25_COMPL_ANY_TH": 5.797000973207503,
+            "PRIMER_PAIR_25_COMPL_END_TH": 9.08946633372301,
+            "PRIMER_PAIR_25_PRODUCT_SIZE": 480,
+            "PRIMER_PAIR_26_PENALTY": 13.415327629705132,
+            "PRIMER_LEFT_26_PENALTY": 4.463049813291434,
+            "PRIMER_RIGHT_26_PENALTY": 8.952277816413698,
+            "PRIMER_LEFT_26_SEQUENCE": "ACCAAACCCCAGAGTCAATTAA",
+            "PRIMER_RIGHT_26_SEQUENCE": "TGTAACTATCGTTAAAAATTGGCATCT",
+            "PRIMER_LEFT_26": [
+                101,
+                22
+            ],
+            "PRIMER_RIGHT_26": [
+                557,
+                27
+            ],
+            "PRIMER_LEFT_26_TM": 57.536950186708566,
+            "PRIMER_RIGHT_26_TM": 58.0477221835863,
+            "PRIMER_LEFT_26_GC_PERCENT": 40.90909090909091,
+            "PRIMER_RIGHT_26_GC_PERCENT": 29.62962962962963,
+            "PRIMER_LEFT_26_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_26_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_26_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_26_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_26_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_26_HAIRPIN_TH": 37.355725978343514,
+            "PRIMER_LEFT_26_END_STABILITY": 1.4,
+            "PRIMER_RIGHT_26_END_STABILITY": 2.9,
+            "PRIMER_PAIR_26_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_26_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_26_PRODUCT_SIZE": 457,
+            "PRIMER_PAIR_27_PENALTY": 13.817615961215154,
+            "PRIMER_LEFT_27_PENALTY": 4.578928052808294,
+            "PRIMER_RIGHT_27_PENALTY": 9.23868790840686,
+            "PRIMER_LEFT_27_SEQUENCE": "TCTCGACACCAGATTGAATATCGA",
+            "PRIMER_RIGHT_27_SEQUENCE": "TCAACATTTCTAGAAATTGAATCATGCA",
+            "PRIMER_LEFT_27": [
+                270,
+                24
+            ],
+            "PRIMER_RIGHT_27": [
+                639,
+                28
+            ],
+            "PRIMER_LEFT_27_TM": 59.421071947191706,
+            "PRIMER_RIGHT_27_TM": 58.76131209159314,
+            "PRIMER_LEFT_27_GC_PERCENT": 41.666666666666664,
+            "PRIMER_RIGHT_27_GC_PERCENT": 28.571428571428573,
+            "PRIMER_LEFT_27_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_27_SELF_ANY_TH": 24.940351200216412,
+            "PRIMER_LEFT_27_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_27_SELF_END_TH": 5.031773799610505,
+            "PRIMER_LEFT_27_HAIRPIN_TH": 36.10348179034963,
+            "PRIMER_RIGHT_27_HAIRPIN_TH": 38.84028645507567,
+            "PRIMER_LEFT_27_END_STABILITY": 3.59,
+            "PRIMER_RIGHT_27_END_STABILITY": 3.96,
+            "PRIMER_PAIR_27_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_27_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_27_PRODUCT_SIZE": 370,
+            "PRIMER_PAIR_28_PENALTY": 14.392937155526795,
+            "PRIMER_LEFT_28_PENALTY": 4.87374619267581,
+            "PRIMER_RIGHT_28_PENALTY": 9.519190962850985,
+            "PRIMER_LEFT_28_SEQUENCE": "ATCGATACAGATACCCCAACTG",
+            "PRIMER_RIGHT_28_SEQUENCE": "TGATGGAAGATTCAACATTTCTAGAAA",
+            "PRIMER_LEFT_28": [
+                289,
+                22
+            ],
+            "PRIMER_RIGHT_28": [
+                650,
+                27
+            ],
+            "PRIMER_LEFT_28_TM": 57.12625380732419,
+            "PRIMER_RIGHT_28_TM": 57.480809037149015,
+            "PRIMER_LEFT_28_GC_PERCENT": 45.45454545454545,
+            "PRIMER_RIGHT_28_GC_PERCENT": 29.62962962962963,
+            "PRIMER_LEFT_28_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_28_SELF_ANY_TH": 19.827015922661644,
+            "PRIMER_LEFT_28_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_28_SELF_END_TH": 19.827015922661644,
+            "PRIMER_LEFT_28_HAIRPIN_TH": 37.61824833425226,
+            "PRIMER_RIGHT_28_HAIRPIN_TH": 34.4554091570115,
+            "PRIMER_LEFT_28_END_STABILITY": 3.16,
+            "PRIMER_RIGHT_28_END_STABILITY": 2.52,
+            "PRIMER_PAIR_28_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_28_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_28_PRODUCT_SIZE": 362,
+            "PRIMER_PAIR_29_PENALTY": 14.741561132613867,
+            "PRIMER_LEFT_29_PENALTY": 5.18049189003591,
+            "PRIMER_RIGHT_29_PENALTY": 9.561069242577958,
+            "PRIMER_LEFT_29_SEQUENCE": "GGAACATTAAACAATCTCGACACCA",
+            "PRIMER_RIGHT_29_SEQUENCE": "ACTATCGTTAAAAATTGGCATCTATCT",
+            "PRIMER_LEFT_29": [
+                256,
+                25
+            ],
+            "PRIMER_RIGHT_29": [
+                553,
+                27
+            ],
+            "PRIMER_LEFT_29_TM": 59.81950810996409,
+            "PRIMER_RIGHT_29_TM": 57.43893075742204,
+            "PRIMER_LEFT_29_GC_PERCENT": 40.0,
+            "PRIMER_RIGHT_29_GC_PERCENT": 29.62962962962963,
+            "PRIMER_LEFT_29_SELF_ANY_TH": 0.0,
+            "PRIMER_RIGHT_29_SELF_ANY_TH": 0.0,
+            "PRIMER_LEFT_29_SELF_END_TH": 0.0,
+            "PRIMER_RIGHT_29_SELF_END_TH": 0.0,
+            "PRIMER_LEFT_29_HAIRPIN_TH": 0.0,
+            "PRIMER_RIGHT_29_HAIRPIN_TH": 0.0,
+            "PRIMER_LEFT_29_END_STABILITY": 4.17,
+            "PRIMER_RIGHT_29_END_STABILITY": 1.98,
+            "PRIMER_PAIR_29_COMPL_ANY_TH": 0.0,
+            "PRIMER_PAIR_29_COMPL_END_TH": 0.0,
+            "PRIMER_PAIR_29_PRODUCT_SIZE": 298,
+            "SEQUENCE_RELATIVE_TARGET_START": 399,
+            "example.fa": {
+                "PRIMER_PAIR_0_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.0.L",
+                            "sseqid": "seq1",
+                            "sstart": 16,
+                            "send": 35,
+                            "Tm": 63.08,
+                            "qseq": "GCTTCTGCAATGCCAAGTCC",
+                            "sseq": "GCTTCTGCAATGCCAAGTCC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.0.R",
+                            "sseqid": "seq1",
+                            "sstart": 498,
+                            "send": 517,
+                            "Tm": 62.98,
+                            "qseq": "CTGTTGCATTGGCTTTGGCT",
+                            "sseq": "CTGTTGCATTGGCTTTGGCT"
+                        },
+                        "Tm": 62.98,
+                        "region": "seq1:16-517",
+                        "product_size": 502,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_1_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.1.L",
+                            "sseqid": "seq2",
+                            "sstart": 282,
+                            "send": 301,
+                            "Tm": 64.53,
+                            "qseq": "TTCAACCGACCCTTCACCAC",
+                            "sseq": "TTCAACCGACCCTTCACCAC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.1.R",
+                            "sseqid": "seq2",
+                            "sstart": 443,
+                            "send": 462,
+                            "Tm": 62.59,
+                            "qseq": "GCTGCTGATCCCATTGCTTC",
+                            "sseq": "GCTGCTGATCCCATTGCTTC"
+                        },
+                        "Tm": 62.59,
+                        "region": "seq2:282-462",
+                        "product_size": 181,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.1.L",
+                            "sseqid": "seq1",
+                            "sstart": 319,
+                            "send": 338,
+                            "Tm": 64.53,
+                            "qseq": "TTCAACCGACCCTTCACCAC",
+                            "sseq": "TTCAACCGACCCTTCACCAC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.1.R",
+                            "sseqid": "seq1",
+                            "sstart": 481,
+                            "send": 500,
+                            "Tm": 62.59,
+                            "qseq": "GCTGCTGATCCCATTGCTTC",
+                            "sseq": "GCTGCTGATCCCATTGCTTC"
+                        },
+                        "Tm": 62.59,
+                        "region": "seq1:319-500",
+                        "product_size": 182,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_2_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.2.L",
+                            "sseqid": "seq2",
+                            "sstart": 286,
+                            "send": 305,
+                            "Tm": 64.16,
+                            "qseq": "ACCGACCCTTCACCACAAAA",
+                            "sseq": "ACCGACCCTTCACCACAAAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.2.R",
+                            "sseqid": "seq2",
+                            "sstart": 454,
+                            "send": 473,
+                            "Tm": 62.48,
+                            "qseq": "CATTGGCTTTGGCTGCTGAT",
+                            "sseq": "CATTGGCTTTGGCTGCTGAT"
+                        },
+                        "Tm": 62.48,
+                        "region": "seq2:286-473",
+                        "product_size": 188,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.2.L",
+                            "sseqid": "seq1",
+                            "sstart": 323,
+                            "send": 342,
+                            "Tm": 64.16,
+                            "qseq": "ACCGACCCTTCACCACAAAA",
+                            "sseq": "ACCGACCCTTCACCACAAAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.2.R",
+                            "sseqid": "seq1",
+                            "sstart": 492,
+                            "send": 511,
+                            "Tm": 62.48,
+                            "qseq": "CATTGGCTTTGGCTGCTGAT",
+                            "sseq": "CATTGGCTTTGGCTGCTGAT"
+                        },
+                        "Tm": 62.48,
+                        "region": "seq1:323-511",
+                        "product_size": 189,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_3_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.3.L",
+                            "sseqid": "seq1",
+                            "sstart": 9,
+                            "send": 28,
+                            "Tm": 62.44,
+                            "qseq": "TACAACCGCTTCTGCAATGC",
+                            "sseq": "TACAACCGCTTCTGCAATGC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.3.R",
+                            "sseqid": "seq1",
+                            "sstart": 478,
+                            "send": 498,
+                            "Tm": 62.97,
+                            "qseq": "TGCTGATCCCATTGCTTCACT",
+                            "sseq": "TGCTGATCCCATTGCTTCACT"
+                        },
+                        "Tm": 62.44,
+                        "region": "seq1:9-498",
+                        "product_size": 490,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_4_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.4.L",
+                            "sseqid": "seq2",
+                            "sstart": 277,
+                            "send": 296,
+                            "Tm": 63.76,
+                            "qseq": "GCCAATTCAACCGACCCTTC",
+                            "sseq": "GCCAATTCAACCGACCCTTC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.4.R",
+                            "sseqid": "seq2",
+                            "sstart": 449,
+                            "send": 468,
+                            "Tm": 64.76,
+                            "qseq": "GCTTTGGCTGCTGATCCCAT",
+                            "sseq": "GCTTTGGCTGCTGATCCCAT"
+                        },
+                        "Tm": 63.76,
+                        "region": "seq2:277-468",
+                        "product_size": 192,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.4.L",
+                            "sseqid": "seq1",
+                            "sstart": 314,
+                            "send": 333,
+                            "Tm": 63.76,
+                            "qseq": "GCCAATTCAACCGACCCTTC",
+                            "sseq": "GCCAATTCAACCGACCCTTC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.4.R",
+                            "sseqid": "seq1",
+                            "sstart": 487,
+                            "send": 506,
+                            "Tm": 64.76,
+                            "qseq": "GCTTTGGCTGCTGATCCCAT",
+                            "sseq": "GCTTTGGCTGCTGATCCCAT"
+                        },
+                        "Tm": 63.76,
+                        "region": "seq1:314-506",
+                        "product_size": 193,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_5_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.5.L",
+                            "sseqid": "seq2",
+                            "sstart": 269,
+                            "send": 288,
+                            "Tm": 64.28,
+                            "qseq": "CAACTGCCGCCAATTCAACC",
+                            "sseq": "CAACTGCCGCCAATTCAACC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.5.R",
+                            "sseqid": "seq2",
+                            "sstart": 473,
+                            "send": 492,
+                            "Tm": 57.69,
+                            "qseq": "TCTATTGCACTGCCTGTTGC",
+                            "sseq": "TCTATTGCACTGCCTGCTGC"
+                        },
+                        "Tm": 57.69,
+                        "region": "seq2:269-492",
+                        "product_size": 224,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.5.L",
+                            "sseqid": "seq1",
+                            "sstart": 306,
+                            "send": 325,
+                            "Tm": 64.28,
+                            "qseq": "CAACTGCCGCCAATTCAACC",
+                            "sseq": "CAACTGCCGCCAATTCAACC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.5.R",
+                            "sseqid": "seq1",
+                            "sstart": 511,
+                            "send": 530,
+                            "Tm": 61.81,
+                            "qseq": "TCTATTGCACTGCCTGTTGC",
+                            "sseq": "TCTATTGCACTGCCTGTTGC"
+                        },
+                        "Tm": 61.81,
+                        "region": "seq1:306-530",
+                        "product_size": 225,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_6_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.6.L",
+                            "sseqid": "seq1",
+                            "sstart": 5,
+                            "send": 24,
+                            "Tm": 62.34,
+                            "qseq": "AGAGTACAACCGCTTCTGCA",
+                            "sseq": "AGAGTACAACCGCTTCTGCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.6.R",
+                            "sseqid": "seq1",
+                            "sstart": 484,
+                            "send": 503,
+                            "Tm": 65.03,
+                            "qseq": "TTGGCTGCTGATCCCATTGC",
+                            "sseq": "TTGGCTGCTGATCCCATTGC"
+                        },
+                        "Tm": 62.34,
+                        "region": "seq1:5-503",
+                        "product_size": 499,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_7_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.7.L",
+                            "sseqid": "seq2",
+                            "sstart": 258,
+                            "send": 277,
+                            "Tm": 64.85,
+                            "qseq": "TACAGATACCCCAACTGCCG",
+                            "sseq": "TACAGATACCCCAACTGCCG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.7.R",
+                            "sseqid": "seq2",
+                            "sstart": 457,
+                            "send": 476,
+                            "Tm": 64.23,
+                            "qseq": "TTGCATTGGCTTTGGCTGCT",
+                            "sseq": "CTGCATTGGCTTTGGCTGCT"
+                        },
+                        "Tm": 64.23,
+                        "region": "seq2:258-476",
+                        "product_size": 219,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.7.L",
+                            "sseqid": "seq1",
+                            "sstart": 295,
+                            "send": 314,
+                            "Tm": 64.85,
+                            "qseq": "TACAGATACCCCAACTGCCG",
+                            "sseq": "TACAGATACCCCAACTGCCG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.7.R",
+                            "sseqid": "seq1",
+                            "sstart": 495,
+                            "send": 514,
+                            "Tm": 64.84,
+                            "qseq": "TTGCATTGGCTTTGGCTGCT",
+                            "sseq": "TTGCATTGGCTTTGGCTGCT"
+                        },
+                        "Tm": 64.84,
+                        "region": "seq1:295-514",
+                        "product_size": 220,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_8_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.8.L",
+                            "sseqid": "seq1",
+                            "sstart": 24,
+                            "send": 43,
+                            "Tm": 63.9,
+                            "qseq": "AATGCCAAGTCCAGCAGCAA",
+                            "sseq": "AATGCCAAGTCCAGCAGCAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.8.R",
+                            "sseqid": "seq1",
+                            "sstart": 501,
+                            "send": 519,
+                            "Tm": 61.51,
+                            "qseq": "GCCTGTTGCATTGGCTTTG",
+                            "sseq": "GCCTGTTGCATTGGCTTTG"
+                        },
+                        "Tm": 61.51,
+                        "region": "seq1:24-519",
+                        "product_size": 496,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_9_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.9.L",
+                            "sseqid": "seq1",
+                            "sstart": 14,
+                            "send": 32,
+                            "Tm": 63.2,
+                            "qseq": "CCGCTTCTGCAATGCCAAG",
+                            "sseq": "CCGCTTCTGCAATGCCAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.9.R",
+                            "sseqid": "seq1",
+                            "sstart": 517,
+                            "send": 538,
+                            "Tm": 63.24,
+                            "qseq": "GGCATCTATCTATTGCACTGCC",
+                            "sseq": "GGCATCTATCTATTGCACTGCC"
+                        },
+                        "Tm": 63.2,
+                        "region": "seq1:14-538",
+                        "product_size": 525,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_10_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.10.L",
+                            "sseqid": "seq1",
+                            "sstart": 22,
+                            "send": 40,
+                            "Tm": 62.85,
+                            "qseq": "GCAATGCCAAGTCCAGCAG",
+                            "sseq": "GCAATGCCAAGTCCAGCAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.10.R",
+                            "sseqid": "seq1",
+                            "sstart": 465,
+                            "send": 486,
+                            "Tm": 61.99,
+                            "qseq": "TGCTTCACTTGTTGATACAGCC",
+                            "sseq": "TGCTTCACTTGTTGATACAGCC"
+                        },
+                        "Tm": 61.99,
+                        "region": "seq1:22-486",
+                        "product_size": 465,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_11_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.11.L",
+                            "sseqid": "seq1",
+                            "sstart": 28,
+                            "send": 46,
+                            "Tm": 62.11,
+                            "qseq": "CCAAGTCCAGCAGCAAGTG",
+                            "sseq": "CCAAGTCCAGCAGCAAGTG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.11.R",
+                            "sseqid": "seq1",
+                            "sstart": 472,
+                            "send": 492,
+                            "Tm": 61.0,
+                            "qseq": "TCCCATTGCTTCACTTGTTGA",
+                            "sseq": "TCCCATTGCTTCACTTGTTGA"
+                        },
+                        "Tm": 61.0,
+                        "region": "seq1:28-492",
+                        "product_size": 465,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_12_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.12.L",
+                            "sseqid": "seq2",
+                            "sstart": 3,
+                            "send": 23,
+                            "Tm": 63.07,
+                            "qseq": "GCAAGTGCTAAGGAAGGGAAG",
+                            "sseq": "GCAAGTGCTAAGGAAGGGAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.12.R",
+                            "sseqid": "seq2",
+                            "sstart": 437,
+                            "send": 458,
+                            "Tm": 61.75,
+                            "qseq": "CTGATCCCATTGCTTCACTTGT",
+                            "sseq": "CTGATCCCATTGCTTCACTTGT"
+                        },
+                        "Tm": 61.75,
+                        "region": "seq2:3-458",
+                        "product_size": 456,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.12.L",
+                            "sseqid": "seq1",
+                            "sstart": 40,
+                            "send": 60,
+                            "Tm": 63.07,
+                            "qseq": "GCAAGTGCTAAGGAAGGGAAG",
+                            "sseq": "GCAAGTGCTAAGGAAGGGAAG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.12.R",
+                            "sseqid": "seq1",
+                            "sstart": 475,
+                            "send": 496,
+                            "Tm": 61.75,
+                            "qseq": "CTGATCCCATTGCTTCACTTGT",
+                            "sseq": "CTGATCCCATTGCTTCACTTGT"
+                        },
+                        "Tm": 61.75,
+                        "region": "seq1:40-496",
+                        "product_size": 457,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_13_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.13.L",
+                            "sseqid": "seq2",
+                            "sstart": 274,
+                            "send": 291,
+                            "Tm": 63.66,
+                            "qseq": "GCCGCCAATTCAACCGAC",
+                            "sseq": "GCCGCCAATTCAACCGAC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.13.R",
+                            "sseqid": "seq2",
+                            "sstart": 403,
+                            "send": 424,
+                            "Tm": 62.6,
+                            "qseq": "TGTTGGCCATTTGGATACTTGT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq2:274-424",
+                        "product_size": 151,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.13.L",
+                            "sseqid": "seq1",
+                            "sstart": 311,
+                            "send": 328,
+                            "Tm": 63.66,
+                            "qseq": "GCCGCCAATTCAACCGAC",
+                            "sseq": "GCCGCCAATTCAACCGAC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.13.R",
+                            "sseqid": "seq1",
+                            "sstart": 441,
+                            "send": 462,
+                            "Tm": 62.6,
+                            "qseq": "TGTTGGCCATTTGGATACTTGT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq1:311-462",
+                        "product_size": 152,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_14_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.14.L",
+                            "sseqid": "seq2",
+                            "sstart": 263,
+                            "send": 282,
+                            "Tm": 68.07,
+                            "qseq": "ATACCCCAACTGCCGCCAAT",
+                            "sseq": "ATACCCCAACTGCCGCCAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.14.R",
+                            "sseqid": "seq2",
+                            "sstart": 406,
+                            "send": 428,
+                            "Tm": 64.03,
+                            "qseq": "CCTTTGTTGGCCATTTGGATACT",
+                            "sseq": "CCTTTGTTGGCCATTTGGATACT"
+                        },
+                        "Tm": 64.03,
+                        "region": "seq2:263-428",
+                        "product_size": 166,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.14.L",
+                            "sseqid": "seq1",
+                            "sstart": 300,
+                            "send": 319,
+                            "Tm": 68.07,
+                            "qseq": "ATACCCCAACTGCCGCCAAT",
+                            "sseq": "ATACCCCAACTGCCGCCAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.14.R",
+                            "sseqid": "seq1",
+                            "sstart": 444,
+                            "send": 466,
+                            "Tm": 64.03,
+                            "qseq": "CCTTTGTTGGCCATTTGGATACT",
+                            "sseq": "CCTTTGTTGGCCATTTGGATACT"
+                        },
+                        "Tm": 64.03,
+                        "region": "seq1:300-466",
+                        "product_size": 167,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_15_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.15.L",
+                            "sseqid": "seq2",
+                            "sstart": 33,
+                            "send": 54,
+                            "Tm": 62.6,
+                            "qseq": "GCCTTGATGCTCAAATTCACCA",
+                            "sseq": "GCCTTGATGCTCAAATTCACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.15.R",
+                            "sseqid": "seq2",
+                            "sstart": 424,
+                            "send": 447,
+                            "Tm": 62.7,
+                            "qseq": "GCTTCACTTGTTGATACAGCCTTT",
+                            "sseq": "GCTTCACTTGTTGATACAGCCTTT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq2:33-447",
+                        "product_size": 415,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.15.L",
+                            "sseqid": "seq1",
+                            "sstart": 70,
+                            "send": 91,
+                            "Tm": 62.6,
+                            "qseq": "GCCTTGATGCTCAAATTCACCA",
+                            "sseq": "GCCTTGATGCTCAAATTCACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.15.R",
+                            "sseqid": "seq1",
+                            "sstart": 462,
+                            "send": 485,
+                            "Tm": 62.7,
+                            "qseq": "GCTTCACTTGTTGATACAGCCTTT",
+                            "sseq": "GCTTCACTTGTTGATACAGCCTTT"
+                        },
+                        "Tm": 62.6,
+                        "region": "seq1:70-485",
+                        "product_size": 416,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_16_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.16.L",
+                            "sseqid": "seq1",
+                            "sstart": 1,
+                            "send": 21,
+                            "Tm": 61.69,
+                            "qseq": "ACTGAGAGTACAACCGCTTCT",
+                            "sseq": "ACTGAGAGTACAACCGCTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.16.R",
+                            "sseqid": "seq1",
+                            "sstart": 457,
+                            "send": 480,
+                            "Tm": 63.2,
+                            "qseq": "ACTTGTTGATACAGCCTTTGTTGG",
+                            "sseq": "ACTTGTTGATACAGCCTTTGTTGG"
+                        },
+                        "Tm": 61.69,
+                        "region": "seq1:1-480",
+                        "product_size": 480,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_17_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.17.L",
+                            "sseqid": "seq2",
+                            "sstart": 267,
+                            "send": 285,
+                            "Tm": 65.81,
+                            "qseq": "CCCAACTGCCGCCAATTCA",
+                            "sseq": "CCCAACTGCCGCCAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.17.R",
+                            "sseqid": "seq2",
+                            "sstart": 430,
+                            "send": 453,
+                            "Tm": 63.01,
+                            "qseq": "CCCATTGCTTCACTTGTTGATACA",
+                            "sseq": "CCCATTGCTTCACTTGTTGATACA"
+                        },
+                        "Tm": 63.01,
+                        "region": "seq2:267-453",
+                        "product_size": 187,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.17.L",
+                            "sseqid": "seq1",
+                            "sstart": 304,
+                            "send": 322,
+                            "Tm": 65.81,
+                            "qseq": "CCCAACTGCCGCCAATTCA",
+                            "sseq": "CCCAACTGCCGCCAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.17.R",
+                            "sseqid": "seq1",
+                            "sstart": 468,
+                            "send": 491,
+                            "Tm": 63.01,
+                            "qseq": "CCCATTGCTTCACTTGTTGATACA",
+                            "sseq": "CCCATTGCTTCACTTGTTGATACA"
+                        },
+                        "Tm": 63.01,
+                        "region": "seq1:304-491",
+                        "product_size": 188,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_18_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.18.L",
+                            "sseqid": "seq2",
+                            "sstart": 25,
+                            "send": 45,
+                            "Tm": 60.44,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCA",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.18.R",
+                            "sseqid": "seq2",
+                            "sstart": 476,
+                            "send": 498,
+                            "Tm": 60.72,
+                            "qseq": "CATCTATCTATTGCACTGCCTGT",
+                            "sseq": "CATCTATCTATTGCACTGCCTGC"
+                        },
+                        "Tm": 60.44,
+                        "region": "seq2:25-498",
+                        "product_size": 474,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.18.L",
+                            "sseqid": "seq1",
+                            "sstart": 62,
+                            "send": 82,
+                            "Tm": 60.44,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCA",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.18.R",
+                            "sseqid": "seq1",
+                            "sstart": 514,
+                            "send": 536,
+                            "Tm": 61.67,
+                            "qseq": "CATCTATCTATTGCACTGCCTGT",
+                            "sseq": "CATCTATCTATTGCACTGCCTGT"
+                        },
+                        "Tm": 60.44,
+                        "region": "seq1:62-536",
+                        "product_size": 475,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_19_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.19.L",
+                            "sseqid": "seq2",
+                            "sstart": 6,
+                            "send": 27,
+                            "Tm": 62.89,
+                            "qseq": "AGTGCTAAGGAAGGGAAGAACT",
+                            "sseq": "AGTGCTAAGGAAGGGAAGAACT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.19.R",
+                            "sseqid": "seq2",
+                            "sstart": 400,
+                            "send": 424,
+                            "Tm": 63.91,
+                            "qseq": "TGTTGGCCATTTGGATACTTGTTTT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGTTTT"
+                        },
+                        "Tm": 62.89,
+                        "region": "seq2:6-424",
+                        "product_size": 419,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.19.L",
+                            "sseqid": "seq1",
+                            "sstart": 43,
+                            "send": 64,
+                            "Tm": 62.89,
+                            "qseq": "AGTGCTAAGGAAGGGAAGAACT",
+                            "sseq": "AGTGCTAAGGAAGGGAAGAACT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.19.R",
+                            "sseqid": "seq1",
+                            "sstart": 438,
+                            "send": 462,
+                            "Tm": 63.91,
+                            "qseq": "TGTTGGCCATTTGGATACTTGTTTT",
+                            "sseq": "TGTTGGCCATTTGGATACTTGTTTT"
+                        },
+                        "Tm": 62.89,
+                        "region": "seq1:43-462",
+                        "product_size": 420,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_20_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.20.L",
+                            "sseqid": "seq1",
+                            "sstart": 356,
+                            "send": 378,
+                            "Tm": 63.37,
+                            "qseq": "TCAGCCAATAGTTACCTGTGTGA",
+                            "sseq": "TCAGCCAATAGTTACCTGTGTGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.20.R",
+                            "sseqid": "seq1",
+                            "sstart": 600,
+                            "send": 623,
+                            "Tm": 59.84,
+                            "qseq": "TGAATCATGCATTAGTTTCAGGTT",
+                            "sseq": "TGAATCATGCATTAGTTTCAGGTT"
+                        },
+                        "Tm": 59.84,
+                        "region": "seq1:356-623",
+                        "product_size": 268,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_21_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.21.L",
+                            "sseqid": "seq2",
+                            "sstart": 29,
+                            "send": 51,
+                            "Tm": 61.37,
+                            "qseq": "TCTTGCCTTGATGCTCAAATTCA",
+                            "sseq": "TCTTGCCTTGATGCTCAAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.21.R",
+                            "sseqid": "seq2",
+                            "sstart": 482,
+                            "send": 506,
+                            "Tm": 60.56,
+                            "qseq": "AAAATTGGCATCTATCTATTGCACT",
+                            "sseq": "AAAATTGGCATCTATCTATTGCACT"
+                        },
+                        "Tm": 60.56,
+                        "region": "seq2:29-506",
+                        "product_size": 478,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.21.L",
+                            "sseqid": "seq1",
+                            "sstart": 66,
+                            "send": 88,
+                            "Tm": 61.37,
+                            "qseq": "TCTTGCCTTGATGCTCAAATTCA",
+                            "sseq": "TCTTGCCTTGATGCTCAAATTCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.21.R",
+                            "sseqid": "seq1",
+                            "sstart": 520,
+                            "send": 544,
+                            "Tm": 60.56,
+                            "qseq": "AAAATTGGCATCTATCTATTGCACT",
+                            "sseq": "AAAATTGGCATCTATCTATTGCACT"
+                        },
+                        "Tm": 60.56,
+                        "region": "seq1:66-544",
+                        "product_size": 479,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_22_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.22.L",
+                            "sseqid": "seq1",
+                            "sstart": 59,
+                            "send": 79,
+                            "Tm": 59.33,
+                            "qseq": "AGAACTTTCTTGCCTTGATGC",
+                            "sseq": "AGAACTTTCTTGCCTTGATGC"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.22.R",
+                            "sseqid": "seq1",
+                            "sstart": 595,
+                            "send": 619,
+                            "Tm": 60.14,
+                            "qseq": "TCATGCATTAGTTTCAGGTTTTAGA",
+                            "sseq": "TCATGCATTAGTTTCAGGTTTTAGA"
+                        },
+                        "Tm": 59.33,
+                        "region": "seq1:59-619",
+                        "product_size": 561,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_23_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.23.L",
+                            "sseqid": "seq1",
+                            "sstart": 62,
+                            "send": 85,
+                            "Tm": 61.87,
+                            "qseq": "ACTTTCTTGCCTTGATGCTCAAAT",
+                            "sseq": "ACTTTCTTGCCTTGATGCTCAAAT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.23.R",
+                            "sseqid": "seq1",
+                            "sstart": 591,
+                            "send": 616,
+                            "Tm": 60.83,
+                            "qseq": "TGCATTAGTTTCAGGTTTTAGAAAGT",
+                            "sseq": "TGCATTAGTTTCAGGTTTTAGAAAGT"
+                        },
+                        "Tm": 60.83,
+                        "region": "seq1:62-616",
+                        "product_size": 555,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_24_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.24.L",
+                            "sseqid": "seq2",
+                            "sstart": 8,
+                            "send": 31,
+                            "Tm": 63.54,
+                            "qseq": "TGCTAAGGAAGGGAAGAACTTTCT",
+                            "sseq": "TGCTAAGGAAGGGAAGAACTTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.24.R",
+                            "sseqid": "seq2",
+                            "sstart": 497,
+                            "send": 523,
+                            "Tm": 61.73,
+                            "qseq": "TCATGTAACTATCGTTAAAAATTGGCA",
+                            "sseq": "TCATGTAACTATCGTTAAAAATTGGCA"
+                        },
+                        "Tm": 61.73,
+                        "region": "seq2:8-523",
+                        "product_size": 516,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.24.L",
+                            "sseqid": "seq1",
+                            "sstart": 45,
+                            "send": 68,
+                            "Tm": 63.54,
+                            "qseq": "TGCTAAGGAAGGGAAGAACTTTCT",
+                            "sseq": "TGCTAAGGAAGGGAAGAACTTTCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.24.R",
+                            "sseqid": "seq1",
+                            "sstart": 535,
+                            "send": 561,
+                            "Tm": 61.73,
+                            "qseq": "TCATGTAACTATCGTTAAAAATTGGCA",
+                            "sseq": "TCATGTAACTATCGTTAAAAATTGGCA"
+                        },
+                        "Tm": 61.73,
+                        "region": "seq1:45-561",
+                        "product_size": 517,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_25_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.25.L",
+                            "sseqid": "seq2",
+                            "sstart": 34,
+                            "send": 57,
+                            "Tm": 62.29,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCT",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.25.R",
+                            "sseqid": "seq2",
+                            "sstart": 485,
+                            "send": 512,
+                            "Tm": 62.55,
+                            "qseq": "TCGTTAAAAATTGGCATCTATCTATTGC",
+                            "sseq": "TCGTTAAAAATTGGCATCTATCTATTGC"
+                        },
+                        "Tm": 62.29,
+                        "region": "seq2:34-512",
+                        "product_size": 479,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.25.L",
+                            "sseqid": "seq1",
+                            "sstart": 71,
+                            "send": 94,
+                            "Tm": 62.29,
+                            "qseq": "CCTTGATGCTCAAATTCACCATCT",
+                            "sseq": "CCTTGATGCTCAAATTCACCATCT"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.25.R",
+                            "sseqid": "seq1",
+                            "sstart": 523,
+                            "send": 550,
+                            "Tm": 62.55,
+                            "qseq": "TCGTTAAAAATTGGCATCTATCTATTGC",
+                            "sseq": "TCGTTAAAAATTGGCATCTATCTATTGC"
+                        },
+                        "Tm": 62.29,
+                        "region": "seq1:71-550",
+                        "product_size": 480,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_26_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.26.L",
+                            "sseqid": "seq2",
+                            "sstart": 65,
+                            "send": 86,
+                            "Tm": 62.29,
+                            "qseq": "ACCAAACCCCAGAGTCAATTAA",
+                            "sseq": "ACCAAACCCCAGAGTCAATTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.26.R",
+                            "sseqid": "seq2",
+                            "sstart": 494,
+                            "send": 520,
+                            "Tm": 61.51,
+                            "qseq": "TGTAACTATCGTTAAAAATTGGCATCT",
+                            "sseq": "TGTAACTATCGTTAAAAATTGGCATCT"
+                        },
+                        "Tm": 61.51,
+                        "region": "seq2:65-520",
+                        "product_size": 456,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.26.L",
+                            "sseqid": "seq1",
+                            "sstart": 102,
+                            "send": 123,
+                            "Tm": 62.29,
+                            "qseq": "ACCAAACCCCAGAGTCAATTAA",
+                            "sseq": "ACCAAACCCCAGAGTCAATTAA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.26.R",
+                            "sseqid": "seq1",
+                            "sstart": 532,
+                            "send": 558,
+                            "Tm": 61.51,
+                            "qseq": "TGTAACTATCGTTAAAAATTGGCATCT",
+                            "sseq": "TGTAACTATCGTTAAAAATTGGCATCT"
+                        },
+                        "Tm": 61.51,
+                        "region": "seq1:102-558",
+                        "product_size": 457,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_27_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.27.L",
+                            "sseqid": "seq1",
+                            "sstart": 271,
+                            "send": 294,
+                            "Tm": 62.09,
+                            "qseq": "TCTCGACACCAGATTGAATATCGA",
+                            "sseq": "TCTCGACACCAGATTGAATATCGA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.27.R",
+                            "sseqid": "seq1",
+                            "sstart": 613,
+                            "send": 640,
+                            "Tm": 60.72,
+                            "qseq": "TCAACATTTCTAGAAATTGAATCATGCA",
+                            "sseq": "TCAACATTTCTAGAAATTGAATCATGCA"
+                        },
+                        "Tm": 60.72,
+                        "region": "seq1:271-640",
+                        "product_size": 370,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_28_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.28.L",
+                            "sseqid": "seq1",
+                            "sstart": 290,
+                            "send": 311,
+                            "Tm": 61.76,
+                            "qseq": "ATCGATACAGATACCCCAACTG",
+                            "sseq": "ATCGATACAGATACCCCAACTG"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.28.R",
+                            "sseqid": "seq1",
+                            "sstart": 625,
+                            "send": 651,
+                            "Tm": 59.97,
+                            "qseq": "TGATGGAAGATTCAACATTTCTAGAAA",
+                            "sseq": "TGATGGAAGATTCAACATTTCTAGAAA"
+                        },
+                        "Tm": 59.97,
+                        "region": "seq1:290-651",
+                        "product_size": 362,
+                        "product_seq": ""
+                    }
+                ],
+                "PRIMER_PAIR_29_AMPLICONS": [
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.29.L",
+                            "sseqid": "seq2",
+                            "sstart": 220,
+                            "send": 244,
+                            "Tm": 62.94,
+                            "qseq": "GGAACATTAAACAATCTCGACACCA",
+                            "sseq": "GGAACATTAAACAATCTCGACACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.29.R",
+                            "sseqid": "seq2",
+                            "sstart": 490,
+                            "send": 516,
+                            "Tm": 60.91,
+                            "qseq": "ACTATCGTTAAAAATTGGCATCTATCT",
+                            "sseq": "ACTATCGTTAAAAATTGGCATCTATCT"
+                        },
+                        "Tm": 60.91,
+                        "region": "seq2:220-516",
+                        "product_size": 297,
+                        "product_seq": ""
+                    },
+                    {
+                        "plus": {
+                            "qseqid": "seq1-400-10.29.L",
+                            "sseqid": "seq1",
+                            "sstart": 257,
+                            "send": 281,
+                            "Tm": 62.94,
+                            "qseq": "GGAACATTAAACAATCTCGACACCA",
+                            "sseq": "GGAACATTAAACAATCTCGACACCA"
+                        },
+                        "minus": {
+                            "qseqid": "seq1-400-10.29.R",
+                            "sseqid": "seq1",
+                            "sstart": 528,
+                            "send": 554,
+                            "Tm": 60.91,
+                            "qseq": "ACTATCGTTAAAAATTGGCATCTATCT",
+                            "sseq": "ACTATCGTTAAAAATTGGCATCTATCT"
+                        },
+                        "Tm": 60.91,
+                        "region": "seq1:257-554",
+                        "product_size": 298,
+                        "product_seq": ""
+                    }
+                ]
+            },
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_0": 0,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_1": 3,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_2": 6,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_3": 8,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_4": 9,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_5": 10,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_6": 11,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_7": 16,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_8": 20,
+            "PRIMER_PAIR_AMPLICON_NUM_RANK_9": 22,
+            "PRIMER_PAIR_NUM_RETURNED_FINAL": 10
+        }
+    },
+    "dimers": {}
+}

@@ -35,11 +35,11 @@ def make_args():
 
     group_all = parent_parser_all.add_argument_group('Overall Setttings')
     group_all.add_argument('--primer-num-retain', type=int, help='The maximum number of primers to retain in each \
-        site in the final report.', default=10)
+        site in the final report.', default=10) # AD: default if not overridden on command line
     group_all.add_argument('--check-multiplex', help='Checking dimers between primers in different sites, which is useful in \
         multiplex PCR.', action='store_true')
     group_all.add_argument('--Tm-diff', type=int, help='The mininum difference of melting temperature (℃) \
-        suggested to produce off-target amplicon or primer dimers. Suggest >10', default=20)
+        suggested to produce off-target amplicon or primer dimers. Suggest >10', default=20) # AD: default if not overridden in p3_settings.json or on command line
     group_all.add_argument('-p', '--cpu', type=int, help='Used CPU number.', default=2)
     group_all.add_argument('-o', '--out', help="Output primers in JSON format. default: {query}.out", \
         type=argparse.FileType('w'))
@@ -57,9 +57,9 @@ def make_args():
     group_design.add_argument('--product-size-max', type=int, help='Upper limit of the product amplicon size range (bp).', \
         default=1000)
     group_design.add_argument('--Tm-opt', type=int, help='Optmized melting temperature for primers (℃).', \
-        default=60)
+        default=60) # AD: default if not overridden in p3_settings.json or on command line
     group_design.add_argument('--primer-num-return', type=int, help='The maximum number of primers to return in Primer3 \
-        designing results.', default=30)
+        designing results.', default=30) # AD: default if not overridden in p3_settings.json or on command line; changed from 30
     # qRT-PCR specific
     group_design.add_argument('--junction', help='Primer pair must be separated by at least one intron on the \
         corresponding genomic DNA; or primers must span an exon-exon junction. Junction data in JSON format should be prepared by \
@@ -149,7 +149,8 @@ def run(args):
             raise Exception(primers['error'])
     else:
         if args.run_mode=='design':
-            primer_num_return = args.primer_num_retain
+            primer_num_return = args.primer_num_return # AD: changed "primer_num_retain to "primer_num_return"
+            # as it really makes no sense to return the "primer_num_retain" number in design mode
         else:
             primer_num_return = args.primer_num_return
         if make_sites.judge_input_type(query_string)=='pos':

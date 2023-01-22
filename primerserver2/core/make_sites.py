@@ -245,5 +245,5 @@ if __name__ == "__main__":
     if input_type=='pos':
         primer_sites = build_by_pos(query=query, template_file='tests/example.fa', primer_type=args.type, primer_num_return=30)
     else:
-        primer_sites = build_by_seq(query=query, primer_type=args.type, primer_num_return=30)
+        primer_sites = build_by_seq(query=query, primer_type=args.type, primer_num_return=20)
     print(json.dumps(primer_sites, indent=4))

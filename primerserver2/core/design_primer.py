@@ -27,26 +27,60 @@ def single(site):
     type = site['type']
     pos = site['pos']
     length = site['length']
-    size_max = site['size_max']
-    size_min = site['size_min']
-    primer_num_return = site['primer_num_return']
-    Tm_opt = site['Tm_opt'] if 'Tm_opt' in site else 60
+    size_max = site['size_max'] # AD: make.sites sets size_max = 1000 if something else not already set as default
+    size_min = site['size_min'] # AD: make.sites sets size_min = 70 if something else not already set as default
+    primer_num_return = site['primer_num_return'] # AD: make.sites sets primer_num_return = 30 if something else not already set as default
+    Tm_opt = site['Tm_opt'] if 'Tm_opt' in site else 60 # AD: make.sites sets Tm_opt = 60 if something else not already set as default; this sets it at 60 again... seems unneeded
 
     p3_json = os.path.join(os.path.dirname(__file__), '../data/p3_settings.json')
     p3_settings = dict(json.load(open(p3_json)))
-    p3_settings['PRIMER_PRODUCT_SIZE_RANGE'] = [[size_min, size_max]]
-    p3_settings['PRIMER_NUM_RETURN'] = primer_num_return
-    p3_settings['PRIMER_OPT_TM'] = Tm_opt
-    p3_settings['PRIMER_MIN_TM'] = Tm_opt-3
-    p3_settings['PRIMER_MAX_TM'] = Tm_opt+3
-    p3_settings['PRIMER_INTERNAL_OPT_TM'] = Tm_opt+10
-    p3_settings['PRIMER_INTERNAL_MIN_TM'] = p3_settings['PRIMER_INTERNAL_OPT_TM']-3
-    p3_settings['PRIMER_INTERNAL_MAX_TM'] = p3_settings['PRIMER_INTERNAL_OPT_TM']+3
-    p3_settings['PRIMER_MAX_SELF_ANY_TH'] = Tm_opt-15
-    p3_settings['PRIMER_PAIR_MAX_COMPL_ANY_TH'] = Tm_opt-15
-    p3_settings['PRIMER_MAX_SELF_END_TH'] = Tm_opt-15
-    p3_settings['PRIMER_PAIR_MAX_COMPL_END_TH'] = Tm_opt-15
-    p3_settings['PRIMER_MAX_HAIRPIN_TH'] = Tm_opt-15
+    
+    # AD statements below replaces default for PRIMER_PRODUCT_SIZE_RANGE with that in
+    # settings file or command line, otherwise keep defaults from PrimerServer2
+    # Command line value takes precedence over values set in settings file when both are present
+    size_range = {'PRIMER_PRODUCT_SIZE_RANGE' : [size_min, size_max]}
+    if 'PRIMER_PRODUCT_SIZE_RANGE' in p3_settings.keys() and size_range['PRIMER_PRODUCT_SIZE_RANGE'] == [70, 1000]:
+        p3_settings['PRIMER_PRODUCT_SIZE_RANGE'] = [p3_settings['PRIMER_PRODUCT_SIZE_RANGE']]
+    else:
+        p3_settings['PRIMER_PRODUCT_SIZE_RANGE'] = [[size_min, size_max]]
+
+    # AD statements below replaces default for PRIMER_NUM_RETURN with that in
+    # settings file, or command line, otherwise keep defaults from PrimerServer2
+    # Command line value takes precedence over values set in settings file when both are present
+    if 'PRIMER_NUM_RETURN' in p3_settings.keys() and primer_num_return == 30:
+        primer_num_return = p3_settings['PRIMER_NUM_RETURN']
+    else:
+        p3_settings['PRIMER_NUM_RETURN'] = primer_num_return
+
+    # AD statements below replaces default for PRIMER_OPT_TM with that in
+    # settings file or command line, otherwise keep defaults from PrimerServer2
+    # Command line value takes precedence over values set in settings file when both are present
+    if 'PRIMER_OPT_TM' in p3_settings.keys() and Tm_opt == 60:
+        Tm_opt = p3_settings['PRIMER_OPT_TM']
+    else:
+        p3_settings['PRIMER_OPT_TM'] = Tm_opt
+
+    # AD: calculate Primer3 defaults based on Tm opt if these not explicitly included in settings file 
+    if 'PRIMER_MIN_TM' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_MIN_TM'] = Tm_opt-3
+    if 'PRIMER_MAX_TM' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_MAX_TM'] = Tm_opt+3
+    if 'PRIMER_INTERNAL_OPT_TM' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_INTERNAL_OPT_TM'] = Tm_opt+10
+    if 'PRIMER_INTERNAL_MIN_TM' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_INTERNAL_MIN_TM'] = p3_settings['PRIMER_INTERNAL_OPT_TM']-3
+    if 'PRIMER_INTERNAL_MAX_TM' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_INTERNAL_MAX_TM'] = p3_settings['PRIMER_INTERNAL_OPT_TM']+3
+    if 'PRIMER_MAX_SELF_ANY_TH' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_MAX_SELF_ANY_TH'] = Tm_opt-15
+    if 'PRIMER_PAIR_MAX_COMPL_ANY_TH' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_PAIR_MAX_COMPL_ANY_TH'] = Tm_opt-15
+    if 'PRIMER_MAX_SELF_END_TH' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_MAX_SELF_END_TH'] = Tm_opt-15
+    if 'PRIMER_PAIR_MAX_COMPL_END_TH' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_PAIR_MAX_COMPL_END_TH'] = Tm_opt-15
+    if 'PRIMER_MAX_HAIRPIN_TH' not in p3_settings.keys(): # AD: added
+        p3_settings['PRIMER_MAX_HAIRPIN_TH'] = Tm_opt-15
     if site['pick_internal'] is True:
         p3_settings['PRIMER_PICK_INTERNAL_OLIGO'] = 1
 
