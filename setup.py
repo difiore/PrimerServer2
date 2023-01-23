@@ -30,7 +30,8 @@ setup(name='primerserver2',
           'flask < 2.1 ',
           'python-dotenv < 0.20',
           'python-utils < 2.7',
-          'six < 1.17'
+          'six < 1.17',
+          'setuptools <=58.2.0'
       ],
       entry_points={
           'console_scripts': [
