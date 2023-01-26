@@ -19,7 +19,7 @@ from primerserver2.core import multiplex
 from primerserver2.core import version
 
 def make_args():
-    parser = argparse.ArgumentParser(description='primertool: the command-line version of PrimerServer2', \
+    parser = argparse.ArgumentParser(description='primertool_2023: the command-line version of PrimerServer2', \
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-v', '--version', action='version', version='%(prog)s '+version.get())
 

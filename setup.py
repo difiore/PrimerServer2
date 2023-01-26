@@ -17,21 +17,20 @@ setup(name='primerserver2',
           'Topic :: Scientific/Engineering :: Bio-Informatics'
       ],
       keywords='primer bioinformatics PCR',
-      author='Tao Zhu',
-      author_email='taozhu@mail.bnu.edu.cn',
-      url='https://github.com/billzt/PrimerServer2',
+      author='Tao Zhu (modified by Anthony Di Fiore)',
+      author_email='taozhu@mail.bnu.edu.cn (anthony.difiore@austin.utexas.edu)',
+      url='https://github.com/difiore/PrimerServer2',
       license='MIT',
       packages=find_packages(),
       include_package_data=True,
-      python_requires='>=3.6, <3.9',
+      python_requires='>=3.6, <3.8',
       install_requires=[
           'primer3-py < 0.7',
           'progressbar2 < 3.56',
           'flask < 2.1 ',
           'python-dotenv < 0.20',
           'python-utils < 2.7',
-          'six < 1.17',
-          'setuptools <=58.2.0'
+          'six < 1.17'
       ],
       entry_points={
           'console_scripts': [
