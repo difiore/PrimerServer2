@@ -11,7 +11,8 @@ This repository is based on Python3 and acts as the successor of legacy [PrimerS
 
 ## External Dependencies
 
-** Add these two softwares to your system PATH**
+**Add these two softwares to your system PATH**
+
 * [Samtools](https://www.htslib.org/) (>=1.9).
 * [NCBI BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi) (>=2.2.18)
 
@@ -61,14 +62,14 @@ $ primertool design tests/query_design_multiple tests/example.fa
 $ primertool check tests/query_check_multiple tests/example.fa
 ```
 
-## Running **PrimerServer2
+## Running **PrimerServer2**
 
-The key command in for use in **PrimerServer2** is `primertool`, which takes two parameters, a `query` file and a `template` file. The `query` file 
+The key command in for use in **PrimerServer2** is `primertool`, which takes two parameters, a `query` file containing targets to design primers for and a `template` file with the FASTA sequences containing those targets. The `query` file can take two formats...
 
+### Targets defined directly in FASTA Format
 
-## Input Format (The First Parameter)
-### in FASTA Format
-If you have parts of template sequences, you can directly input in FASTA format:
+If you have parts of template sequences, you can indicate a target directly in FASTA format by surrounding it with square braces (`[ ]`)...
+
 ```
 >site1
 TGTGATATTAAGTAAAGGAACATTAAACAATCTCGACACCAGATTGAATATCGATACAGA
@@ -80,21 +81,28 @@ ACCAGATTGAATATCGATACAGATACCCCAACTGCCGCCAATTCAACCGACCCTTCACCA
 CAAAAAAACTAATATTTATCA[GC]CAATAGTTACCTGTGTGATTAATAGATAAAGCTAC
 AAGCAAGCTTGGTATGATAGTATTAATAATAAAAAAAGAAAAACAAGTATCCAAATGGCC
 ```
-Note there is a pair of square brackets `[]` indicating target in each sequences. It means primers should be put around the target. This is the default mode.
+This means primers that primers should be designed outside of this target to amplify the section in braces. This is the default mode.
 
-### in Text Format
-If you have genomic coordinates for each site (e.g. SNPs), you can input coordinates like:
+Alternatively, if you have genomic coordinates for each site (e.g. SNPs), you can input target coordinates using the name of the FASTA sequence, the start position of the target within that sequence, and the length of the target, separated by tabs or other white space. For example...
+
 ```
-seq1 200 10
-seq1 400 10
+seq1  200   10
+seq1  400   15
 ```
-It means that two sites (one site per line) are needed to design primers. The first site is in `seq1` and starts in position `200` and the region length is `10` (means `seq1:200-209`). The second site is in `seq1` and starts in position `400` and the region length is `10` (means `seq1:400-409`).
 
-AD: for a microsatellite, enter start position as start of msat in FASTA -10 and region length as length of msat + 20
+This means that each target site is specified on a separate line. In this example, the first target site is located in `seq1`, starts at position `200`, and the size of the desired region to amplify is `10` base pairs (this means that the target for which primers are to be designed is `seq1:200-209`). The second site is in `seq1`, starts at position `400`, and and the size of the desired region to amplify is `15` base pairs (means `seq1:400-414`).
 
-For details, see the [wiki](https://github.com/billzt/PrimerServer2/wiki).
+To set a microsatellite as a target, you should enter the start position as start of the microsatellite region within the FASTA file **minus** some desired size of a "buffer" before the microsatellite into which the primer sequence should not extend, e.g., `10` bp. The length of the target region, enter the size (in bp) of the microsatellite region **plus** 2 times the length of the desired buffer, e.g., plus 2 x 10 bp = plus `20`. For example, the following could be used as a `query` file for defining two target microsatellites, one located on `seq1` starting at bp 200 and extending for 30 bases with a buffer of 10 bp on either side of the microsatellite (i.e., the target minus buffer start is bp 200 - 10 = 190 and the length is 30 + 2 x 10 = 50).
+
+```
+seq1  190   50
+seq2  390   50
+```
+
+For details, see the [wiki page](https://github.com/billzt/PrimerServer2/wiki) for the original PrimerServer2.
 
 ## Need to run the Web UI?
+
 Please refer to the [wiki](https://github.com/billzt/PrimerServer2/wiki).
 
 ## Warning: About the reference genome
@@ -115,7 +123,3 @@ For the human genome, we recommend the [no_alt_analysis_set](https://hgdownload.
 |    Custom Tm temperature    |     :heavy_check_mark:    |     :x:    |
 |    Custom max amplicons    |     :heavy_check_mark:    |     :x:    |
 |    Visualization    |     :x:    |     :heavy_check_mark:    |
-
-
-
-
