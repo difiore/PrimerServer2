@@ -111,15 +111,15 @@ If possible, delete (some or all of ) these unplaced scaffolds.
 For the human genome, we recommend the [no_alt_analysis_set](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/analysisSet/), which has all the PAR regions marked with N, to be used.
 
 ## Comparison of the CLI and Web version
-|                       | CLI              | Web UI             |
-| ----                  | ----             | ----               |
-| Design primers        |:heavy_check_mark:| :heavy_check_mark: |
-| Checking specificity  |:heavy_check_mark:| :heavy_check_mark: |
-| Progress monitor      |:heavy_check_mark:| :heavy_check_mark: |
-| Number of tasks       |:High            :| :Low:              |
-| Alternative isoforms  |:heavy_check_mark:| :x:                |
-| Exon-exon junction    |:heavy_check_mark:| :x:                |
-| Pick internal oligos  |:heavy_check_mark:| :x:                |
-| Custom Tm temperature |:heavy_check_mark:| :x:                |
-| Custom max amplicons  |:heavy_check_mark:| :x:                |
-| Visualization         |:x               :| :heavy_check_mark: |
+|                       | CLI              | Web UI           |
+|-----------------------|:----------------:|:----------------:|
+| Design primers        | heavy_check_mark | heavy_check_mark |
+| Checking specificity  | heavy_check_mark | heavy_check_mark |
+| Progress monitor      | heavy_check_mark | heavy_check_mark |
+| Number of tasks       | High             | Low              |
+| Alternative isoforms  | heavy_check_mark | x                |
+| Exon-exon junction    | heavy_check_mark | x                |
+| Pick internal oligos  | heavy_check_mark | x                |
+| Custom Tm temperature | heavy_check_mark | x                |
+| Custom max amplicons  | heavy_check_mark | x                |
+| Visualization         | x                | heavy_check_mark |
