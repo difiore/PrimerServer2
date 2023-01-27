@@ -121,3 +121,4 @@ primerserver2/data/web_config.json
 # R and Mac Stuff
 .Rproj.user
 .DS_Store
+.Rhistory
