@@ -5,7 +5,7 @@ PrimerServer2: a high-throughput primer design and specificity-checking platform
 
 ## Description
 
-PrimerServer was proposed to design genome-wide specific PCR primers. It uses candidate primers produced by Primer3, uses BLAST and nucleotide thermodynamics to search for possible amplicons and filters out specific primers for each site. By using multiple threads, it runs very fast, ~0.4s per site in our case study for more than 10000 sites.
+PrimerServer was proposed to design genome-wide specific PCR primers. It uses candidate primers produced by Primer3, uses BLAST and nucleotide thermodynamics to search for possible amplicons and filters out specific primers for each site. By using multiple threads, it runs very fast, ~0.4s per site in a case study for more than 10000 sites.
 
 This repository is based on Python3 and acts as the successor of legacy [PrimerServer](https://github.com/billzt/PrimerServer).
 
@@ -64,11 +64,29 @@ $ primertool check tests/query_check_multiple tests/example.fa
 
 ## Running **PrimerServer2**
 
-The key command in for use in **PrimerServer2** is `primertool`, which takes two parameters, a `query` file containing targets to design primers for and a `template` file with the FASTA sequences containing those targets. The `query` file can take two formats...
+The key command in for use in **PrimerServer2** is `primertool`, which takes a **mode** ("full", "design", or "check"), plus two parameters: a `query` file either containing targets to design primers (in "full" or "design" mode) or a set of primers to run specificity checks on (in "check" mode) and a `template` file with the FASTA sequences containing those targets. The `query` file for "full" or "check" mode can take two formats...
 
-### Targets defined directly in FASTA Format
+### Targets defined by positions within FASTA sequences
 
-If you have parts of template sequences, you can indicate a target directly in FASTA format by surrounding it with square braces (`[ ]`)...
+If you have genomic coordinates for each site (e.g. SNPs), you can input target coordinates using the name of the FASTA sequence, the start position of the target within that sequence, and the length of the target, separated by tabs or other white space. For example...
+
+```
+seq1  200   10
+seq1  400   15
+```
+
+This means that each target site is specified on a separate line. In this example, the first target site is located in `seq1`, starts at position `200`, and the size of the desired region to amplify is `10` base pairs (this means that the target for which primers are to be designed is `seq1:200-209`). The second site is in `seq1`, starts at position `400`, and the size of the desired region to amplify is `15` base pairs (means `seq1:400-414`).
+
+To set a microsatellite as a target, you should enter the start position as start of the microsatellite region within the FASTA file **minus** some desired size of a "buffer" before the microsatellite into which the primer sequence should not extend, e.g., `10` base pairs. The length of the target region, enter the size (in bp) of the microsatellite region **plus** 2 times the length of the desired buffer, e.g., plus 2 x 10 base pairs = plus `20`. For example, the following could be used as a `query` file for defining two target microsatellites, one located on `seq1` starting at base pair 200 and extending for 30 bases with a buffer of 10 base pairs on either side of the microsatellite (i.e., the target minus buffer start is base pair 200 - 10 = 190 and the length is 30 + 2 x 10 = 50).
+
+```
+seq1  190   50
+seq2  390   50
+```
+
+### Targets defined directly in FASTA format
+
+Alternatively, if you have parts of template sequences, you can indicate a target directly in FASTA format by surrounding it with square braces (`[ ]`)...
 
 ```
 >site1
@@ -81,36 +99,20 @@ ACCAGATTGAATATCGATACAGATACCCCAACTGCCGCCAATTCAACCGACCCTTCACCA
 CAAAAAAACTAATATTTATCA[GC]CAATAGTTACCTGTGTGATTAATAGATAAAGCTAC
 AAGCAAGCTTGGTATGATAGTATTAATAATAAAAAAAGAAAAACAAGTATCCAAATGGCC
 ```
-This means primers that primers should be designed outside of this target to amplify the section in braces. This is the default mode.
+This means that primers will be designed outside of this target to amplify the section in braces.
 
-Alternatively, if you have genomic coordinates for each site (e.g. SNPs), you can input target coordinates using the name of the FASTA sequence, the start position of the target within that sequence, and the length of the target, separated by tabs or other white space. For example...
-
-```
-seq1  200   10
-seq1  400   15
-```
-
-This means that each target site is specified on a separate line. In this example, the first target site is located in `seq1`, starts at position `200`, and the size of the desired region to amplify is `10` base pairs (this means that the target for which primers are to be designed is `seq1:200-209`). The second site is in `seq1`, starts at position `400`, and and the size of the desired region to amplify is `15` base pairs (means `seq1:400-414`).
-
-To set a microsatellite as a target, you should enter the start position as start of the microsatellite region within the FASTA file **minus** some desired size of a "buffer" before the microsatellite into which the primer sequence should not extend, e.g., `10` bp. The length of the target region, enter the size (in bp) of the microsatellite region **plus** 2 times the length of the desired buffer, e.g., plus 2 x 10 bp = plus `20`. For example, the following could be used as a `query` file for defining two target microsatellites, one located on `seq1` starting at bp 200 and extending for 30 bases with a buffer of 10 bp on either side of the microsatellite (i.e., the target minus buffer start is bp 200 - 10 = 190 and the length is 30 + 2 x 10 = 50).
-
-```
-seq1  190   50
-seq2  390   50
-```
-
-For details, see the [wiki page](https://github.com/billzt/PrimerServer2/wiki) for the original PrimerServer2.
+> NOTE: For details, see the [wiki page](https://github.com/billzt/PrimerServer2/wiki) for the original PrimerServer2.
 
 ## Need to run the Web UI?
 
 Please refer to the [wiki](https://github.com/billzt/PrimerServer2/wiki).
 
-## Warning: About the reference genome
-If you use reference genomes with many unplaced scaffolds, be caution since such scaffolds with great homology with main chromosomes might influence your results.
-If possible, delete (some or all of ) these unplaced scaffolds.
-For the human genome, we recommend the [no_alt_analysis_set](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/analysisSet/), which has all the PAR regions marked with N, to be used.
+## A Warning about Reference Genomes
 
-## Comparison of the CLI and Web version
+If you use reference genomes with many unplaced scaffolds, be caution since such scaffolds with great homology with main chromosomes might influence your results. If possible, delete (some or all of) these unplaced scaffolds. For the human genome, using the [no_alt_analysis_set](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/analysisSet/), which has all the PAR regions marked with N, is recommended.
+
+## Comparison of the CLI and Web versions of **PrimerServer2**
+
 |                       | CLI                | Web UI             |
 |-----------------------| :----------------: | :----------------: |
 | Design primers        | :heavy_check_mark: | :heavy_check_mark: |
